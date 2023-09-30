@@ -7,8 +7,8 @@
 #pragma once
 
 
-#include "../../../../../../../../UE/Commando Hero Klasoru/CommandoHero/Plugins/AdvancedSteamSessions/Source/AdvancedSteamSessions/Classes/AdvancedSteamFriendsLibrary.h"
-#include "../../../../../../../../UE/Commando Hero Klasoru/CommandoHero/Plugins/AdvancedSteamSessions/Source/AdvancedSteamSessions/Classes/AdvancedSteamWorkshopLibrary.h"
-#include "../../../../../../../../UE/Commando Hero Klasoru/CommandoHero/Plugins/AdvancedSteamSessions/Source/AdvancedSteamSessions/Classes/SteamRequestGroupOfficersCallbackProxy.h"
-#include "../../../../../../../../UE/Commando Hero Klasoru/CommandoHero/Plugins/AdvancedSteamSessions/Source/AdvancedSteamSessions/Classes/SteamWSRequestUGCDetailsCallbackProxy.h"
+#include "../../../../../../../../SourcTree/DogsClub/Plugins/AdvancedSteamSessions/Source/AdvancedSteamSessions/Classes/AdvancedSteamFriendsLibrary.h"
+#include "../../../../../../../../SourcTree/DogsClub/Plugins/AdvancedSteamSessions/Source/AdvancedSteamSessions/Classes/AdvancedSteamWorkshopLibrary.h"
+#include "../../../../../../../../SourcTree/DogsClub/Plugins/AdvancedSteamSessions/Source/AdvancedSteamSessions/Classes/SteamRequestGroupOfficersCallbackProxy.h"
+#include "../../../../../../../../SourcTree/DogsClub/Plugins/AdvancedSteamSessions/Source/AdvancedSteamSessions/Classes/SteamWSRequestUGCDetailsCallbackProxy.h"
 

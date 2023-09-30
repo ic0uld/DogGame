@@ -1,6 +1,6 @@
-"E:\UE\Commando Hero Klasoru\CommandoHero\Plugins\LeaderboardsIntergration\Intermediate\Build\Win64\x64\UnrealEditor\Development\SimpleSteamLeaderboards\Module.SimpleSteamLeaderboards.cpp"
+E:\SourcTree\DogsClub\Plugins\LeaderboardsIntergration\Intermediate\Build\Win64\x64\UnrealEditor\Development\SimpleSteamLeaderboards\Module.SimpleSteamLeaderboards.cpp
 /I .
-/I "E:\UE\Commando Hero Klasoru\CommandoHero\Plugins\LeaderboardsIntergration\Source\SimpleSteamLeaderboards\Private"
+/I E:\SourcTree\DogsClub\Plugins\LeaderboardsIntergration\Source\SimpleSteamLeaderboards\Private
 /I ..\Plugins\Online\OnlineSubsystem\Intermediate\Build\Win64\UnrealEditor\Inc\OnlineSubsystem\UHT
 /I ..\Plugins\Online\OnlineSubsystem\Source
 /I ..\Plugins\Online\OnlineSubsystem\Source\Public
@@ -283,10 +283,10 @@
 /I Runtime\MovieSceneCapture\Public
 /I ..\Intermediate\Build\Win64\UnrealEditor\Inc\AnimationDataController\UHT
 /I Developer\AnimationDataController\Public
-/I "E:\UE\Commando Hero Klasoru\CommandoHero\Plugins\LeaderboardsIntergration\Intermediate\Build\Win64\UnrealEditor\Inc\SimpleSteamLeaderboards\UHT"
+/I E:\SourcTree\DogsClub\Plugins\LeaderboardsIntergration\Intermediate\Build\Win64\UnrealEditor\Inc\SimpleSteamLeaderboards\UHT
 /I ..\Plugins\Online\OnlineSubsystemSteam\Source\Private
-/I "E:\UE\Commando Hero Klasoru\CommandoHero\Plugins\LeaderboardsIntergration\Source"
-/I "E:\UE\Commando Hero Klasoru\CommandoHero\Plugins\LeaderboardsIntergration\Source\SimpleSteamLeaderboards\Public"
+/I E:\SourcTree\DogsClub\Plugins\LeaderboardsIntergration\Source
+/I E:\SourcTree\DogsClub\Plugins\LeaderboardsIntergration\Source\SimpleSteamLeaderboards\Public
 /I ..\Plugins\Online\OnlineSubsystemSteam\Intermediate\Build\Win64\UnrealEditor\Inc\OnlineSubsystemSteam\UHT
 /I ..\Plugins\Online\OnlineSubsystemSteam\Source\Classes
 /I ..\Plugins\Online\OnlineSubsystemSteam\Source\Public
@@ -301,12 +301,12 @@
 /external:I "C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\shared"
 /external:I "C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\um"
 /external:I "C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\winrt"
-/FI"E:\UE\Commando Hero Klasoru\CommandoHero\Intermediate\Build\Win64\x64\CommandoHeroEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.InclOrderUnreal5_0.h"
-/FI"E:\UE\Commando Hero Klasoru\CommandoHero\Plugins\LeaderboardsIntergration\Intermediate\Build\Win64\x64\UnrealEditor\Development\SimpleSteamLeaderboards\Definitions.SimpleSteamLeaderboards.h"
-/Yu"E:\UE\Commando Hero Klasoru\CommandoHero\Intermediate\Build\Win64\x64\CommandoHeroEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.InclOrderUnreal5_0.h"
-/Fp"E:\UE\Commando Hero Klasoru\CommandoHero\Intermediate\Build\Win64\x64\CommandoHeroEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.InclOrderUnreal5_0.h.pch"
-/Fo"E:\UE\Commando Hero Klasoru\CommandoHero\Plugins\LeaderboardsIntergration\Intermediate\Build\Win64\x64\UnrealEditor\Development\SimpleSteamLeaderboards\Module.SimpleSteamLeaderboards.cpp.obj"
-/sourceDependencies "E:\UE\Commando Hero Klasoru\CommandoHero\Plugins\LeaderboardsIntergration\Intermediate\Build\Win64\x64\UnrealEditor\Development\SimpleSteamLeaderboards\Module.SimpleSteamLeaderboards.cpp.dep.json"
+/FI"E:\SourcTree\DogsClub\Intermediate\Build\Win64\x64\CommandoHeroEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.InclOrderUnreal5_0.h"
+/FI"E:\SourcTree\DogsClub\Plugins\LeaderboardsIntergration\Intermediate\Build\Win64\x64\UnrealEditor\Development\SimpleSteamLeaderboards\Definitions.SimpleSteamLeaderboards.h"
+/Yu"E:\SourcTree\DogsClub\Intermediate\Build\Win64\x64\CommandoHeroEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.InclOrderUnreal5_0.h"
+/Fp"E:\SourcTree\DogsClub\Intermediate\Build\Win64\x64\CommandoHeroEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.InclOrderUnreal5_0.h.pch"
+/Fo"E:\SourcTree\DogsClub\Plugins\LeaderboardsIntergration\Intermediate\Build\Win64\x64\UnrealEditor\Development\SimpleSteamLeaderboards\Module.SimpleSteamLeaderboards.cpp.obj"
+/sourceDependencies E:\SourcTree\DogsClub\Plugins\LeaderboardsIntergration\Intermediate\Build\Win64\x64\UnrealEditor\Development\SimpleSteamLeaderboards\Module.SimpleSteamLeaderboards.cpp.dep.json
 /Zc:inline
 /nologo
 /Oi

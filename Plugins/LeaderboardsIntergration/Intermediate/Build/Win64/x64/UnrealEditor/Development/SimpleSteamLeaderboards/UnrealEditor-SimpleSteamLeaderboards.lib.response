@@ -6,7 +6,7 @@
 /NAME:"UnrealEditor-SimpleSteamLeaderboards.dll"
 /IGNORE:4221
 /NODEFAULTLIB
-"E:\UE\Commando Hero Klasoru\CommandoHero\Intermediate\Build\Win64\x64\CommandoHeroEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.InclOrderUnreal5_0.h.obj"
-"E:\UE\Commando Hero Klasoru\CommandoHero\Plugins\LeaderboardsIntergration\Intermediate\Build\Win64\x64\UnrealEditor\Development\SimpleSteamLeaderboards\Module.SimpleSteamLeaderboards.cpp.obj"
-"E:\UE\Commando Hero Klasoru\CommandoHero\Plugins\LeaderboardsIntergration\Intermediate\Build\Win64\x64\UnrealEditor\Development\SimpleSteamLeaderboards\Default.rc2.res"
-/OUT:"E:\UE\Commando Hero Klasoru\CommandoHero\Plugins\LeaderboardsIntergration\Intermediate\Build\Win64\x64\UnrealEditor\Development\SimpleSteamLeaderboards\UnrealEditor-SimpleSteamLeaderboards.lib"
+"E:\SourcTree\DogsClub\Intermediate\Build\Win64\x64\CommandoHeroEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.InclOrderUnreal5_0.h.obj"
+"E:\SourcTree\DogsClub\Plugins\LeaderboardsIntergration\Intermediate\Build\Win64\x64\UnrealEditor\Development\SimpleSteamLeaderboards\Module.SimpleSteamLeaderboards.cpp.obj"
+"E:\SourcTree\DogsClub\Plugins\LeaderboardsIntergration\Intermediate\Build\Win64\x64\UnrealEditor\Development\SimpleSteamLeaderboards\Default.rc2.res"
+/OUT:"E:\SourcTree\DogsClub\Plugins\LeaderboardsIntergration\Intermediate\Build\Win64\x64\UnrealEditor\Development\SimpleSteamLeaderboards\UnrealEditor-SimpleSteamLeaderboards.lib"

@@ -68,10 +68,10 @@
 /DORIGINAL_FILE_NAME="UnrealEditor-SteamCoreWeb.dll"
 /DBUILT_FROM_CHANGELIST=26001984
 /DBUILD_VERSION=++UE5+Release-5.2-CL-26001984
-/DBUILD_ICON_FILE_NAME="\"..\\Build\\Windows\\Resources\\Default.ico\""
+/DBUILD_ICON_FILE_NAME="\"E:\\SourcTree\\DogsClub\\Build\\Windows\\Application.ico\""
 /DPROJECT_COMPANY_NAME="Montee Games"
 /DPROJECT_COPYRIGHT_STRING="Fill out your copyright notice in the Description page of Project Settings."
 /DPROJECT_PRODUCT_NAME="Commando Hero"
 /DPROJECT_PRODUCT_IDENTIFIER=CommandoHero
-/fo "E:\UE\Commando Hero Klasoru\CommandoHero\Plugins\SteamCore\Intermediate\Build\Win64\x64\UnrealEditor\Development\SteamCoreWeb\Default.rc2.res"
+/fo "E:\SourcTree\DogsClub\Plugins\SteamCore\Intermediate\Build\Win64\x64\UnrealEditor\Development\SteamCoreWeb\Default.rc2.res"
 "..\Build\Windows\Resources\Default.rc2"

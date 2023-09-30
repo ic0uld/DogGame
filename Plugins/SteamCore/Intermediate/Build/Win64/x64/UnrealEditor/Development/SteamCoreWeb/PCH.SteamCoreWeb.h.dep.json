@@ -1,11 +1,11 @@
 {
     "Version": "1.2",
     "Data": {
-        "Source": "e:\\ue\\commando hero klasoru\\commandohero\\plugins\\steamcore\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\steamcoreweb\\pch.steamcoreweb.cpp",
+        "Source": "e:\\sourctree\\dogsclub\\plugins\\steamcore\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\steamcoreweb\\pch.steamcoreweb.cpp",
         "ProvidedModule": "",
         "Includes": [
-            "e:\\ue\\commando hero klasoru\\commandohero\\plugins\\steamcore\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\steamcoreweb\\pch.steamcoreweb.h",
-            "e:\\ue\\commando hero klasoru\\commandohero\\plugins\\steamcore\\source\\steamcoreweb\\private\\steamcoreweb\\steamcorewebpluginprivatepch.h",
+            "e:\\sourctree\\dogsclub\\plugins\\steamcore\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\steamcoreweb\\pch.steamcoreweb.h",
+            "e:\\sourctree\\dogsclub\\plugins\\steamcore\\source\\steamcoreweb\\private\\steamcoreweb\\steamcorewebpluginprivatepch.h",
             "e:\\epic games\\ue_5.2\\engine\\source\\runtime\\core\\public\\coreminimal.h",
             "e:\\epic games\\ue_5.2\\engine\\source\\runtime\\core\\public\\coretypes.h",
             "e:\\epic games\\ue_5.2\\engine\\source\\runtime\\core\\public\\hal\\platform.h",

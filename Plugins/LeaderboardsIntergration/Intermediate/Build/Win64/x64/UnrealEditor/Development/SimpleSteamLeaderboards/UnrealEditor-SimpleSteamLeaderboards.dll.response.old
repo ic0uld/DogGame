@@ -34,9 +34,9 @@
 /NODEFAULTLIB:"LIBCD"
 /NODEFAULTLIB:"LIBCPD"
 /FUNCTIONPADMIN:6
-"E:\UE\Commando Hero Klasoru\CommandoHero52\Intermediate\Build\Win64\x64\CommandoHeroEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.InclOrderUnreal5_0.h.obj"
-"E:\UE\Commando Hero Klasoru\CommandoHero52\Plugins\LeaderboardsIntergration\Intermediate\Build\Win64\x64\UnrealEditor\Development\SimpleSteamLeaderboards\Module.SimpleSteamLeaderboards.cpp.obj"
-"E:\UE\Commando Hero Klasoru\CommandoHero52\Plugins\LeaderboardsIntergration\Intermediate\Build\Win64\x64\UnrealEditor\Development\SimpleSteamLeaderboards\Default.rc2.res"
+"E:\UE\Commando Hero Klasoru\CommandoHero\Intermediate\Build\Win64\x64\CommandoHeroEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.InclOrderUnreal5_0.h.obj"
+"E:\UE\Commando Hero Klasoru\CommandoHero\Plugins\LeaderboardsIntergration\Intermediate\Build\Win64\x64\UnrealEditor\Development\SimpleSteamLeaderboards\Module.SimpleSteamLeaderboards.cpp.obj"
+"E:\UE\Commando Hero Klasoru\CommandoHero\Plugins\LeaderboardsIntergration\Intermediate\Build\Win64\x64\UnrealEditor\Development\SimpleSteamLeaderboards\Default.rc2.res"
 "ThirdParty\Steamworks\Steamv153\sdk\redistributable_bin\win64\steam_api64.lib"
 "..\Plugins\Online\OnlineSubsystem\Intermediate\Build\Win64\x64\UnrealEditor\Development\OnlineSubsystem\UnrealEditor-OnlineSubsystem.lib"
 "..\Intermediate\Build\Win64\x64\UnrealEditor\Development\Sockets\UnrealEditor-Sockets.lib"
@@ -71,7 +71,7 @@
 "setupapi.lib"
 "dwmapi.lib"
 "imm32.lib"
-/OUT:"E:\UE\Commando Hero Klasoru\CommandoHero52\Plugins\LeaderboardsIntergration\Binaries\Win64\UnrealEditor-SimpleSteamLeaderboards.dll"
-/IMPLIB:"E:\UE\Commando Hero Klasoru\CommandoHero52\Plugins\LeaderboardsIntergration\Intermediate\Build\Win64\x64\UnrealEditor\Development\SimpleSteamLeaderboards\UnrealEditor-SimpleSteamLeaderboards.suppressed.lib"
-/PDB:"E:\UE\Commando Hero Klasoru\CommandoHero52\Plugins\LeaderboardsIntergration\Binaries\Win64\UnrealEditor-SimpleSteamLeaderboards.pdb"
+/OUT:"E:\UE\Commando Hero Klasoru\CommandoHero\Plugins\LeaderboardsIntergration\Binaries\Win64\UnrealEditor-SimpleSteamLeaderboards.dll"
+/IMPLIB:"E:\UE\Commando Hero Klasoru\CommandoHero\Plugins\LeaderboardsIntergration\Intermediate\Build\Win64\x64\UnrealEditor\Development\SimpleSteamLeaderboards\UnrealEditor-SimpleSteamLeaderboards.suppressed.lib"
+/PDB:"E:\UE\Commando Hero Klasoru\CommandoHero\Plugins\LeaderboardsIntergration\Binaries\Win64\UnrealEditor-SimpleSteamLeaderboards.pdb"
 /ignore:4078

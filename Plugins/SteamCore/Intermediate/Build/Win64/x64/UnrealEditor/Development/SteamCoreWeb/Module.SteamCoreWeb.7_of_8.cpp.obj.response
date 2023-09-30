@@ -1,6 +1,6 @@
-"E:\UE\Commando Hero Klasoru\CommandoHero\Plugins\SteamCore\Intermediate\Build\Win64\x64\UnrealEditor\Development\SteamCoreWeb\Module.SteamCoreWeb.7_of_8.cpp"
+E:\SourcTree\DogsClub\Plugins\SteamCore\Intermediate\Build\Win64\x64\UnrealEditor\Development\SteamCoreWeb\Module.SteamCoreWeb.7_of_8.cpp
 /I .
-/I "E:\UE\Commando Hero Klasoru\CommandoHero\Plugins\SteamCore\Source\SteamCoreWeb\Private"
+/I E:\SourcTree\DogsClub\Plugins\SteamCore\Source\SteamCoreWeb\Private
 /I Runtime\TraceLog\Public
 /I Runtime\Core\Public
 /I Runtime
@@ -279,9 +279,9 @@
 /I ..\Plugins\Online\OnlineSubsystem
 /I ..\Plugins\Online\OnlineBase\Source\Public
 /I ..\Plugins\Online\OnlineBase
-/I "E:\UE\Commando Hero Klasoru\CommandoHero\Plugins\SteamCore\Intermediate\Build\Win64\UnrealEditor\Inc\SteamCoreWeb\UHT"
-/I "E:\UE\Commando Hero Klasoru\CommandoHero\Plugins\SteamCore\Source"
-/I "E:\UE\Commando Hero Klasoru\CommandoHero\Plugins\SteamCore\Source\SteamCoreWeb\Public"
+/I E:\SourcTree\DogsClub\Plugins\SteamCore\Intermediate\Build\Win64\UnrealEditor\Inc\SteamCoreWeb\UHT
+/I E:\SourcTree\DogsClub\Plugins\SteamCore\Source
+/I E:\SourcTree\DogsClub\Plugins\SteamCore\Source\SteamCoreWeb\Public
 /external:W0
 /external:I ThirdParty\mimalloc\include
 /external:I ThirdParty\LibTiff\Source\Win64
@@ -291,11 +291,11 @@
 /external:I "C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\shared"
 /external:I "C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\um"
 /external:I "C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\winrt"
-/FI"E:\UE\Commando Hero Klasoru\CommandoHero\Plugins\SteamCore\Intermediate\Build\Win64\x64\UnrealEditor\Development\SteamCoreWeb\PCH.SteamCoreWeb.h"
-/Yu"E:\UE\Commando Hero Klasoru\CommandoHero\Plugins\SteamCore\Intermediate\Build\Win64\x64\UnrealEditor\Development\SteamCoreWeb\PCH.SteamCoreWeb.h"
-/Fp"E:\UE\Commando Hero Klasoru\CommandoHero\Plugins\SteamCore\Intermediate\Build\Win64\x64\UnrealEditor\Development\SteamCoreWeb\PCH.SteamCoreWeb.h.pch"
-/Fo"E:\UE\Commando Hero Klasoru\CommandoHero\Plugins\SteamCore\Intermediate\Build\Win64\x64\UnrealEditor\Development\SteamCoreWeb\Module.SteamCoreWeb.7_of_8.cpp.obj"
-/sourceDependencies "E:\UE\Commando Hero Klasoru\CommandoHero\Plugins\SteamCore\Intermediate\Build\Win64\x64\UnrealEditor\Development\SteamCoreWeb\Module.SteamCoreWeb.7_of_8.cpp.dep.json"
+/FI"E:\SourcTree\DogsClub\Plugins\SteamCore\Intermediate\Build\Win64\x64\UnrealEditor\Development\SteamCoreWeb\PCH.SteamCoreWeb.h"
+/Yu"E:\SourcTree\DogsClub\Plugins\SteamCore\Intermediate\Build\Win64\x64\UnrealEditor\Development\SteamCoreWeb\PCH.SteamCoreWeb.h"
+/Fp"E:\SourcTree\DogsClub\Plugins\SteamCore\Intermediate\Build\Win64\x64\UnrealEditor\Development\SteamCoreWeb\PCH.SteamCoreWeb.h.pch"
+/Fo"E:\SourcTree\DogsClub\Plugins\SteamCore\Intermediate\Build\Win64\x64\UnrealEditor\Development\SteamCoreWeb\Module.SteamCoreWeb.7_of_8.cpp.obj"
+/sourceDependencies E:\SourcTree\DogsClub\Plugins\SteamCore\Intermediate\Build\Win64\x64\UnrealEditor\Development\SteamCoreWeb\Module.SteamCoreWeb.7_of_8.cpp.dep.json
 /Zc:inline
 /nologo
 /Oi

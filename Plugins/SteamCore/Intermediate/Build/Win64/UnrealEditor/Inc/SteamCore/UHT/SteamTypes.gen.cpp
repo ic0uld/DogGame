@@ -2051,12 +2051,12 @@ template<> STEAMCORE_API UScriptStruct* StaticStruct<FPartyBeaconID>()
 		}
 		return Z_Registration_Info_UScriptStruct_PartyBeaconID.InnerSingleton;
 	}
-	struct Z_CompiledInDeferFile_FID_UE_Commando_Hero_Klasoru_CommandoHero_Plugins_SteamCore_Source_SteamCore_Public_SteamCore_SteamTypes_h_Statics
+	struct Z_CompiledInDeferFile_FID_SourcTree_DogsClub_Plugins_SteamCore_Source_SteamCore_Public_SteamCore_SteamTypes_h_Statics
 	{
 		static const FEnumRegisterCompiledInInfo EnumInfo[];
 		static const FStructRegisterCompiledInInfo ScriptStructInfo[];
 	};
-	const FEnumRegisterCompiledInInfo Z_CompiledInDeferFile_FID_UE_Commando_Hero_Klasoru_CommandoHero_Plugins_SteamCore_Source_SteamCore_Public_SteamCore_SteamTypes_h_Statics::EnumInfo[] = {
+	const FEnumRegisterCompiledInInfo Z_CompiledInDeferFile_FID_SourcTree_DogsClub_Plugins_SteamCore_Source_SteamCore_Public_SteamCore_SteamTypes_h_Statics::EnumInfo[] = {
 		{ ESteamAttributeType_StaticEnum, TEXT("ESteamAttributeType"), &Z_Registration_Info_UEnum_ESteamAttributeType, CONSTRUCT_RELOAD_VERSION_INFO(FEnumReloadVersionInfo, 3354590982U) },
 		{ ESteamComparisonOp_StaticEnum, TEXT("ESteamComparisonOp"), &Z_Registration_Info_UEnum_ESteamComparisonOp, CONSTRUCT_RELOAD_VERSION_INFO(FEnumReloadVersionInfo, 1709359228U) },
 		{ ESteamMessageType_StaticEnum, TEXT("ESteamMessageType"), &Z_Registration_Info_UEnum_ESteamMessageType, CONSTRUCT_RELOAD_VERSION_INFO(FEnumReloadVersionInfo, 498240741U) },
@@ -2070,7 +2070,7 @@ template<> STEAMCORE_API UScriptStruct* StaticStruct<FPartyBeaconID>()
 		{ ESteamChatEntryType_StaticEnum, TEXT("ESteamChatEntryType"), &Z_Registration_Info_UEnum_ESteamChatEntryType, CONSTRUCT_RELOAD_VERSION_INFO(FEnumReloadVersionInfo, 172190028U) },
 		{ ESteamAccountType_StaticEnum, TEXT("ESteamAccountType"), &Z_Registration_Info_UEnum_ESteamAccountType, CONSTRUCT_RELOAD_VERSION_INFO(FEnumReloadVersionInfo, 2258141917U) },
 	};
-	const FStructRegisterCompiledInInfo Z_CompiledInDeferFile_FID_UE_Commando_Hero_Klasoru_CommandoHero_Plugins_SteamCore_Source_SteamCore_Public_SteamCore_SteamTypes_h_Statics::ScriptStructInfo[] = {
+	const FStructRegisterCompiledInInfo Z_CompiledInDeferFile_FID_SourcTree_DogsClub_Plugins_SteamCore_Source_SteamCore_Public_SteamCore_SteamTypes_h_Statics::ScriptStructInfo[] = {
 		{ FSteamID::StaticStruct, Z_Construct_UScriptStruct_FSteamID_Statics::NewStructOps, TEXT("SteamID"), &Z_Registration_Info_UScriptStruct_SteamID, CONSTRUCT_RELOAD_VERSION_INFO(FStructReloadVersionInfo, sizeof(FSteamID), 1620016601U) },
 		{ FSteamGameID::StaticStruct, Z_Construct_UScriptStruct_FSteamGameID_Statics::NewStructOps, TEXT("SteamGameID"), &Z_Registration_Info_UScriptStruct_SteamGameID, CONSTRUCT_RELOAD_VERSION_INFO(FStructReloadVersionInfo, sizeof(FSteamGameID), 419490198U) },
 		{ FSteamUGCHandle::StaticStruct, Z_Construct_UScriptStruct_FSteamUGCHandle_Statics::NewStructOps, TEXT("SteamUGCHandle"), &Z_Registration_Info_UScriptStruct_SteamUGCHandle, CONSTRUCT_RELOAD_VERSION_INFO(FStructReloadVersionInfo, sizeof(FSteamUGCHandle), 2878754911U) },
@@ -2085,8 +2085,8 @@ template<> STEAMCORE_API UScriptStruct* StaticStruct<FPartyBeaconID>()
 		{ FSteamSessionResult::StaticStruct, Z_Construct_UScriptStruct_FSteamSessionResult_Statics::NewStructOps, TEXT("SteamSessionResult"), &Z_Registration_Info_UScriptStruct_SteamSessionResult, CONSTRUCT_RELOAD_VERSION_INFO(FStructReloadVersionInfo, sizeof(FSteamSessionResult), 2166608235U) },
 		{ FPartyBeaconID::StaticStruct, Z_Construct_UScriptStruct_FPartyBeaconID_Statics::NewStructOps, TEXT("PartyBeaconID"), &Z_Registration_Info_UScriptStruct_PartyBeaconID, CONSTRUCT_RELOAD_VERSION_INFO(FStructReloadVersionInfo, sizeof(FPartyBeaconID), 2114853006U) },
 	};
-	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_UE_Commando_Hero_Klasoru_CommandoHero_Plugins_SteamCore_Source_SteamCore_Public_SteamCore_SteamTypes_h_3160539286(TEXT("/Script/SteamCore"),
+	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_SourcTree_DogsClub_Plugins_SteamCore_Source_SteamCore_Public_SteamCore_SteamTypes_h_3160539286(TEXT("/Script/SteamCore"),
 		nullptr, 0,
-		Z_CompiledInDeferFile_FID_UE_Commando_Hero_Klasoru_CommandoHero_Plugins_SteamCore_Source_SteamCore_Public_SteamCore_SteamTypes_h_Statics::ScriptStructInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_UE_Commando_Hero_Klasoru_CommandoHero_Plugins_SteamCore_Source_SteamCore_Public_SteamCore_SteamTypes_h_Statics::ScriptStructInfo),
-		Z_CompiledInDeferFile_FID_UE_Commando_Hero_Klasoru_CommandoHero_Plugins_SteamCore_Source_SteamCore_Public_SteamCore_SteamTypes_h_Statics::EnumInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_UE_Commando_Hero_Klasoru_CommandoHero_Plugins_SteamCore_Source_SteamCore_Public_SteamCore_SteamTypes_h_Statics::EnumInfo));
+		Z_CompiledInDeferFile_FID_SourcTree_DogsClub_Plugins_SteamCore_Source_SteamCore_Public_SteamCore_SteamTypes_h_Statics::ScriptStructInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_SourcTree_DogsClub_Plugins_SteamCore_Source_SteamCore_Public_SteamCore_SteamTypes_h_Statics::ScriptStructInfo),
+		Z_CompiledInDeferFile_FID_SourcTree_DogsClub_Plugins_SteamCore_Source_SteamCore_Public_SteamCore_SteamTypes_h_Statics::EnumInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_SourcTree_DogsClub_Plugins_SteamCore_Source_SteamCore_Public_SteamCore_SteamTypes_h_Statics::EnumInfo));
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

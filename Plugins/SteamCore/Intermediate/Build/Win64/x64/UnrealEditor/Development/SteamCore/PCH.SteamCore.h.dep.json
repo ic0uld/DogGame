@@ -1,11 +1,11 @@
 {
     "Version": "1.2",
     "Data": {
-        "Source": "e:\\ue\\commando hero klasoru\\commandohero\\plugins\\steamcore\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\steamcore\\pch.steamcore.cpp",
+        "Source": "e:\\sourctree\\dogsclub\\plugins\\steamcore\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\steamcore\\pch.steamcore.cpp",
         "ProvidedModule": "",
         "Includes": [
-            "e:\\ue\\commando hero klasoru\\commandohero\\plugins\\steamcore\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\steamcore\\pch.steamcore.h",
-            "e:\\ue\\commando hero klasoru\\commandohero\\plugins\\steamcore\\source\\steamcore\\private\\steamcore\\steamcorepluginprivatepch.h",
+            "e:\\sourctree\\dogsclub\\plugins\\steamcore\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\steamcore\\pch.steamcore.h",
+            "e:\\sourctree\\dogsclub\\plugins\\steamcore\\source\\steamcore\\private\\steamcore\\steamcorepluginprivatepch.h",
             "e:\\epic games\\ue_5.2\\engine\\source\\runtime\\core\\public\\coreminimal.h",
             "e:\\epic games\\ue_5.2\\engine\\source\\runtime\\core\\public\\coretypes.h",
             "e:\\epic games\\ue_5.2\\engine\\source\\runtime\\core\\public\\hal\\platform.h",
@@ -1551,7 +1551,7 @@
             "e:\\epic games\\ue_5.2\\engine\\plugins\\runtime\\steam\\steamshared\\source\\steamshared\\public\\steamsharedmodule.h",
             "e:\\epic games\\ue_5.2\\engine\\plugins\\runtime\\steam\\steamshared\\source\\steamshared\\public\\steamsharedpackage.h",
             "e:\\epic games\\ue_5.2\\engine\\plugins\\online\\onlinesubsystemsteam\\source\\public\\onlinesubsystemsteammodule.h",
-            "e:\\ue\\commando hero klasoru\\commandohero\\plugins\\steamcore\\source\\steamcore\\private\\steamcore\\steamcorelogging.h"
+            "e:\\sourctree\\dogsclub\\plugins\\steamcore\\source\\steamcore\\private\\steamcore\\steamcorelogging.h"
         ],
         "ImportedModules": [],
         "ImportedHeaderUnits": []

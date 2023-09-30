@@ -33,9 +33,9 @@
 /NODEFAULTLIB:"LIBCD"
 /NODEFAULTLIB:"LIBCPD"
 /FUNCTIONPADMIN:6
-"E:\UE\Commando Hero Klasoru\CommandoHero\Intermediate\Build\Win64\x64\CommandoHeroEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.InclOrderUnreal5_0.h.obj"
-"E:\UE\Commando Hero Klasoru\CommandoHero\Plugins\ALSReplicated\Intermediate\Build\Win64\x64\UnrealEditor\Development\ALSReplicated\Module.ALSReplicated.cpp.obj"
-"E:\UE\Commando Hero Klasoru\CommandoHero\Plugins\ALSReplicated\Intermediate\Build\Win64\x64\UnrealEditor\Development\ALSReplicated\Default.rc2.res"
+"E:\SourcTree\DogsClub\Intermediate\Build\Win64\x64\CommandoHeroEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.InclOrderUnreal5_0.h.obj"
+"E:\SourcTree\DogsClub\Plugins\ALSReplicated\Intermediate\Build\Win64\x64\UnrealEditor\Development\ALSReplicated\Module.ALSReplicated.cpp.obj"
+"E:\SourcTree\DogsClub\Plugins\ALSReplicated\Intermediate\Build\Win64\x64\UnrealEditor\Development\ALSReplicated\Default.rc2.res"
 "..\Intermediate\Build\Win64\x64\UnrealEditor\Development\Core\UnrealEditor-Core.lib"
 "..\Intermediate\Build\Win64\x64\UnrealEditor\Development\CoreUObject\UnrealEditor-CoreUObject.lib"
 "..\Intermediate\Build\Win64\x64\UnrealEditor\Development\Engine\UnrealEditor-Engine.lib"
@@ -65,7 +65,7 @@
 "setupapi.lib"
 "dwmapi.lib"
 "imm32.lib"
-/OUT:"E:\UE\Commando Hero Klasoru\CommandoHero\Plugins\ALSReplicated\Binaries\Win64\UnrealEditor-ALSReplicated.dll"
-/IMPLIB:"E:\UE\Commando Hero Klasoru\CommandoHero\Plugins\ALSReplicated\Intermediate\Build\Win64\x64\UnrealEditor\Development\ALSReplicated\UnrealEditor-ALSReplicated.suppressed.lib"
-/PDB:"E:\UE\Commando Hero Klasoru\CommandoHero\Plugins\ALSReplicated\Binaries\Win64\UnrealEditor-ALSReplicated.pdb"
+/OUT:"E:\SourcTree\DogsClub\Plugins\ALSReplicated\Binaries\Win64\UnrealEditor-ALSReplicated.dll"
+/IMPLIB:"E:\SourcTree\DogsClub\Plugins\ALSReplicated\Intermediate\Build\Win64\x64\UnrealEditor\Development\ALSReplicated\UnrealEditor-ALSReplicated.suppressed.lib"
+/PDB:"E:\SourcTree\DogsClub\Plugins\ALSReplicated\Binaries\Win64\UnrealEditor-ALSReplicated.pdb"
 /ignore:4078

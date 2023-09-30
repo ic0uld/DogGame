@@ -1,6 +1,6 @@
-"E:\UE\Commando Hero Klasoru\CommandoHero52\Plugins\AdvancedSessions\Intermediate\Build\Win64\x64\UnrealEditor\Development\AdvancedSessions\Module.AdvancedSessions.1_of_3.cpp"
+"E:\UE\Commando Hero Klasoru\CommandoHero\Plugins\AdvancedSessions\Intermediate\Build\Win64\x64\UnrealEditor\Development\AdvancedSessions\Module.AdvancedSessions.1_of_3.cpp"
 /I .
-/I "E:\UE\Commando Hero Klasoru\CommandoHero52\Plugins\AdvancedSessions\Source\AdvancedSessions\Private"
+/I "E:\UE\Commando Hero Klasoru\CommandoHero\Plugins\AdvancedSessions\Source\AdvancedSessions\Private"
 /I ..\Plugins\Online\OnlineSubsystem\Intermediate\Build\Win64\UnrealEditor\Inc\OnlineSubsystem\UHT
 /I ..\Plugins\Online\OnlineSubsystem\Source
 /I ..\Plugins\Online\OnlineSubsystem\Source\Public
@@ -283,9 +283,9 @@
 /I Runtime\MovieSceneCapture\Public
 /I ..\Intermediate\Build\Win64\UnrealEditor\Inc\AnimationDataController\UHT
 /I Developer\AnimationDataController\Public
-/I "E:\UE\Commando Hero Klasoru\CommandoHero52\Plugins\AdvancedSessions\Intermediate\Build\Win64\UnrealEditor\Inc\AdvancedSessions\UHT"
-/I "E:\UE\Commando Hero Klasoru\CommandoHero52\Plugins\AdvancedSessions\Source"
-/I "E:\UE\Commando Hero Klasoru\CommandoHero52\Plugins\AdvancedSessions\Source\AdvancedSessions\Classes"
+/I "E:\UE\Commando Hero Klasoru\CommandoHero\Plugins\AdvancedSessions\Intermediate\Build\Win64\UnrealEditor\Inc\AdvancedSessions\UHT"
+/I "E:\UE\Commando Hero Klasoru\CommandoHero\Plugins\AdvancedSessions\Source"
+/I "E:\UE\Commando Hero Klasoru\CommandoHero\Plugins\AdvancedSessions\Source\AdvancedSessions\Classes"
 /external:W0
 /external:I ThirdParty\mimalloc\include
 /external:I ThirdParty\LibTiff\Source\Win64
@@ -295,12 +295,12 @@
 /external:I "C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\shared"
 /external:I "C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\um"
 /external:I "C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\winrt"
-/FI"E:\UE\Commando Hero Klasoru\CommandoHero52\Intermediate\Build\Win64\x64\CommandoHeroEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.InclOrderUnreal5_0.h"
-/FI"E:\UE\Commando Hero Klasoru\CommandoHero52\Plugins\AdvancedSessions\Intermediate\Build\Win64\x64\UnrealEditor\Development\AdvancedSessions\Definitions.AdvancedSessions.h"
-/Yu"E:\UE\Commando Hero Klasoru\CommandoHero52\Intermediate\Build\Win64\x64\CommandoHeroEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.InclOrderUnreal5_0.h"
-/Fp"E:\UE\Commando Hero Klasoru\CommandoHero52\Intermediate\Build\Win64\x64\CommandoHeroEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.InclOrderUnreal5_0.h.pch"
-/Fo"E:\UE\Commando Hero Klasoru\CommandoHero52\Plugins\AdvancedSessions\Intermediate\Build\Win64\x64\UnrealEditor\Development\AdvancedSessions\Module.AdvancedSessions.1_of_3.cpp.obj"
-/sourceDependencies "E:\UE\Commando Hero Klasoru\CommandoHero52\Plugins\AdvancedSessions\Intermediate\Build\Win64\x64\UnrealEditor\Development\AdvancedSessions\Module.AdvancedSessions.1_of_3.cpp.dep.json"
+/FI"E:\UE\Commando Hero Klasoru\CommandoHero\Intermediate\Build\Win64\x64\CommandoHeroEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.InclOrderUnreal5_0.h"
+/FI"E:\UE\Commando Hero Klasoru\CommandoHero\Plugins\AdvancedSessions\Intermediate\Build\Win64\x64\UnrealEditor\Development\AdvancedSessions\Definitions.AdvancedSessions.h"
+/Yu"E:\UE\Commando Hero Klasoru\CommandoHero\Intermediate\Build\Win64\x64\CommandoHeroEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.InclOrderUnreal5_0.h"
+/Fp"E:\UE\Commando Hero Klasoru\CommandoHero\Intermediate\Build\Win64\x64\CommandoHeroEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.InclOrderUnreal5_0.h.pch"
+/Fo"E:\UE\Commando Hero Klasoru\CommandoHero\Plugins\AdvancedSessions\Intermediate\Build\Win64\x64\UnrealEditor\Development\AdvancedSessions\Module.AdvancedSessions.1_of_3.cpp.obj"
+/sourceDependencies "E:\UE\Commando Hero Klasoru\CommandoHero\Plugins\AdvancedSessions\Intermediate\Build\Win64\x64\UnrealEditor\Development\AdvancedSessions\Module.AdvancedSessions.1_of_3.cpp.dep.json"
 /Zc:inline
 /nologo
 /Oi

@@ -73,5 +73,5 @@
 /DPROJECT_COPYRIGHT_STRING="Fill out your copyright notice in the Description page of Project Settings."
 /DPROJECT_PRODUCT_NAME="Commando Hero"
 /DPROJECT_PRODUCT_IDENTIFIER=CommandoHero
-/fo "E:\UE\Commando Hero Klasoru\CommandoHero52\Plugins\SteamCore\Intermediate\Build\Win64\x64\UnrealEditor\Development\SteamCoreWeb\Default.rc2.res"
+/fo "E:\UE\Commando Hero Klasoru\CommandoHero\Plugins\SteamCore\Intermediate\Build\Win64\x64\UnrealEditor\Development\SteamCoreWeb\Default.rc2.res"
 "..\Build\Windows\Resources\Default.rc2"
