@@ -1,0 +1,13 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.SimpleSteamLeaderboards.cpp.obj": [
+			"DownloadSteamLeaderboardEntries.gen.cpp.obj",
+			"SimpleSteamLeaderboards.init.gen.cpp.obj",
+			"UploadScoreToSteamLeaderboard.gen.cpp.obj",
+			"DownloadSteamLeaderboardEntries.cpp.obj",
+			"SimpleSteamLeaderboards.cpp.obj",
+			"UploadScoreToSteamLeaderboard.cpp.obj"
+		]
+	}
+}

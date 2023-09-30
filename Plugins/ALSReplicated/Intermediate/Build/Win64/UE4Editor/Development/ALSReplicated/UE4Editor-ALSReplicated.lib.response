@@ -1,0 +1,14 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UE4Editor-ALSReplicated.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"C:\Users\natha\OneDrive\Documents\Unreal Projects\ALS4\Intermediate\Build\Win64\ALS4Editor\Development\Engine\SharedPCH.Engine.ShadowErrors.h.obj"
+"C:\Users\natha\OneDrive\Documents\Unreal Projects\ALS4\Plugins\ALSReplicated\Intermediate\Build\Win64\UE4Editor\Development\ALSReplicated\Module.ALSReplicated.cpp.obj"
+"C:\Users\natha\OneDrive\Documents\Unreal Projects\ALS4\Plugins\ALSReplicated\Intermediate\Build\Win64\UE4Editor\Development\ALSReplicated\Module.ALSReplicated.gen.cpp.obj"
+"C:\Users\natha\OneDrive\Documents\Unreal Projects\ALS4\Plugins\ALSReplicated\Intermediate\Build\Win64\UE4Editor\Development\ALSReplicated\Default.rc2.res"
+/OUT:"C:\Users\natha\OneDrive\Documents\Unreal Projects\ALS4\Plugins\ALSReplicated\Intermediate\Build\Win64\UE4Editor\Development\ALSReplicated\UE4Editor-ALSReplicated.lib"
+/INCLUDE:IMPLEMENT_MODULE_ALSReplicated
