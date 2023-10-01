@@ -1,0 +1,13 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "d:\\montee\\sourcetree\\plugins\\leaderboardsintergration\\intermediate\\build\\win64\\unrealeditor\\inc\\simplesteamleaderboards\\uht\\simplesteamleaderboards.init.gen.cpp",
+        "ProvidedModule": "",
+        "PCH": "d:\\montee\\sourcetree\\intermediate\\build\\win64\\x64\\commandoheroeditor\\development\\engine\\sharedpch.engine.shadowerrors.inclorderunreal5_0.h.pch",
+        "Includes": [
+            "d:\\montee\\sourcetree\\plugins\\leaderboardsintergration\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\simplesteamleaderboards\\definitions.simplesteamleaderboards.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

@@ -1,0 +1,33 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "d:\\montee\\sourcetree\\plugins\\steamcore\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\steamcoreweb\\module.steamcoreweb.1_of_2.cpp",
+        "ProvidedModule": "",
+        "PCH": "d:\\montee\\sourcetree\\plugins\\steamcore\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\steamcoreweb\\pch.steamcoreweb.h.pch",
+        "Includes": [
+            "d:\\montee\\sourcetree\\plugins\\steamcore\\source\\steamcoreweb\\private\\apps\\webapps.cpp",
+            "d:\\montee\\sourcetree\\plugins\\steamcore\\source\\steamcoreweb\\public\\apps\\webapps.h",
+            "d:\\montee\\sourcetree\\plugins\\steamcore\\source\\steamcoreweb\\public\\steamcoreweb\\steamcoreweb.h",
+            "d:\\montee\\sourcetree\\plugins\\steamcore\\source\\steamcoreweb\\public\\steamcoreweb\\steamwebutilities.h",
+            "d:\\epic\\ue_5.2\\engine\\source\\runtime\\engine\\classes\\kismet\\blueprintfunctionlibrary.h",
+            "d:\\epic\\ue_5.2\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\uht\\blueprintfunctionlibrary.generated.h",
+            "d:\\montee\\sourcetree\\plugins\\steamcore\\source\\steamcoreweb\\public\\steamcoreweb\\steamwebtypes.h",
+            "d:\\montee\\sourcetree\\plugins\\steamcore\\intermediate\\build\\win64\\unrealeditor\\inc\\steamcoreweb\\uht\\steamwebtypes.generated.h",
+            "d:\\montee\\sourcetree\\plugins\\steamcore\\intermediate\\build\\win64\\unrealeditor\\inc\\steamcoreweb\\uht\\steamwebutilities.generated.h",
+            "d:\\montee\\sourcetree\\plugins\\steamcore\\source\\steamcoreweb\\public\\steamcoreweb\\steamcorewebsettings.h",
+            "d:\\montee\\sourcetree\\plugins\\steamcore\\intermediate\\build\\win64\\unrealeditor\\inc\\steamcoreweb\\uht\\steamcorewebsettings.generated.h",
+            "d:\\montee\\sourcetree\\plugins\\steamcore\\intermediate\\build\\win64\\unrealeditor\\inc\\steamcoreweb\\uht\\steamcoreweb.generated.h",
+            "d:\\montee\\sourcetree\\plugins\\steamcore\\intermediate\\build\\win64\\unrealeditor\\inc\\steamcoreweb\\uht\\webapps.generated.h",
+            "d:\\montee\\sourcetree\\plugins\\steamcore\\source\\steamcoreweb\\public\\apps\\webappsasynctasks.h",
+            "d:\\montee\\sourcetree\\plugins\\steamcore\\source\\steamcoreweb\\public\\steamcoreweb\\steamcorewebasync.h",
+            "d:\\epic\\ue_5.2\\engine\\plugins\\online\\onlinesubsystem\\source\\public\\onlineasynctaskmanager.h",
+            "d:\\epic\\ue_5.2\\engine\\source\\runtime\\core\\public\\hal\\runnable.h",
+            "d:\\epic\\ue_5.2\\engine\\source\\runtime\\core\\public\\misc\\singlethreadrunnable.h",
+            "d:\\epic\\ue_5.2\\engine\\plugins\\online\\onlinesubsystem\\source\\public\\onlinesubsystempackage.h",
+            "d:\\montee\\sourcetree\\plugins\\steamcore\\intermediate\\build\\win64\\unrealeditor\\inc\\steamcoreweb\\uht\\steamcorewebasync.generated.h",
+            "d:\\montee\\sourcetree\\plugins\\steamcore\\source\\steamcoreweb\\private\\steamcoreweb\\steamcorewebpluginprivatepch.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

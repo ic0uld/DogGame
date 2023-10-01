@@ -14,91 +14,91 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #endif
 #define STEAMCORE_SteamTypes_generated_h
 
-#define FID_SourcTree_DogsClub_Plugins_SteamCore_Source_SteamCore_Public_SteamCore_SteamTypes_h_761_GENERATED_BODY \
+#define FID_Montee_SourceTree_Plugins_SteamCore_Source_SteamCore_Public_SteamCore_SteamTypes_h_761_GENERATED_BODY \
 	friend struct Z_Construct_UScriptStruct_FSteamID_Statics; \
 	static class UScriptStruct* StaticStruct();
 
 
 template<> STEAMCORE_API UScriptStruct* StaticStruct<struct FSteamID>();
 
-#define FID_SourcTree_DogsClub_Plugins_SteamCore_Source_SteamCore_Public_SteamCore_SteamTypes_h_816_GENERATED_BODY \
+#define FID_Montee_SourceTree_Plugins_SteamCore_Source_SteamCore_Public_SteamCore_SteamTypes_h_816_GENERATED_BODY \
 	friend struct Z_Construct_UScriptStruct_FSteamGameID_Statics; \
 	static class UScriptStruct* StaticStruct();
 
 
 template<> STEAMCORE_API UScriptStruct* StaticStruct<struct FSteamGameID>();
 
-#define FID_SourcTree_DogsClub_Plugins_SteamCore_Source_SteamCore_Public_SteamCore_SteamTypes_h_860_GENERATED_BODY \
+#define FID_Montee_SourceTree_Plugins_SteamCore_Source_SteamCore_Public_SteamCore_SteamTypes_h_860_GENERATED_BODY \
 	friend struct Z_Construct_UScriptStruct_FSteamUGCHandle_Statics; \
 	static class UScriptStruct* StaticStruct();
 
 
 template<> STEAMCORE_API UScriptStruct* StaticStruct<struct FSteamUGCHandle>();
 
-#define FID_SourcTree_DogsClub_Plugins_SteamCore_Source_SteamCore_Public_SteamCore_SteamTypes_h_890_GENERATED_BODY \
+#define FID_Montee_SourceTree_Plugins_SteamCore_Source_SteamCore_Public_SteamCore_SteamTypes_h_890_GENERATED_BODY \
 	friend struct Z_Construct_UScriptStruct_FSteamInventoryUpdateHandle_Statics; \
 	static class UScriptStruct* StaticStruct();
 
 
 template<> STEAMCORE_API UScriptStruct* StaticStruct<struct FSteamInventoryUpdateHandle>();
 
-#define FID_SourcTree_DogsClub_Plugins_SteamCore_Source_SteamCore_Public_SteamCore_SteamTypes_h_927_GENERATED_BODY \
+#define FID_Montee_SourceTree_Plugins_SteamCore_Source_SteamCore_Public_SteamCore_SteamTypes_h_927_GENERATED_BODY \
 	friend struct Z_Construct_UScriptStruct_FSteamTicketHandle_Statics; \
 	static class UScriptStruct* StaticStruct();
 
 
 template<> STEAMCORE_API UScriptStruct* StaticStruct<struct FSteamTicketHandle>();
 
-#define FID_SourcTree_DogsClub_Plugins_SteamCore_Source_SteamCore_Public_SteamCore_SteamTypes_h_959_GENERATED_BODY \
+#define FID_Montee_SourceTree_Plugins_SteamCore_Source_SteamCore_Public_SteamCore_SteamTypes_h_959_GENERATED_BODY \
 	friend struct Z_Construct_UScriptStruct_FValidateAuthTicketResponse_Statics; \
 	STEAMCORE_API static class UScriptStruct* StaticStruct();
 
 
 template<> STEAMCORE_API UScriptStruct* StaticStruct<struct FValidateAuthTicketResponse>();
 
-#define FID_SourcTree_DogsClub_Plugins_SteamCore_Source_SteamCore_Public_SteamCore_SteamTypes_h_987_GENERATED_BODY \
+#define FID_Montee_SourceTree_Plugins_SteamCore_Source_SteamCore_Public_SteamCore_SteamTypes_h_987_GENERATED_BODY \
 	friend struct Z_Construct_UScriptStruct_FPublishedFileID_Statics; \
 	STEAMCORE_API static class UScriptStruct* StaticStruct();
 
 
 template<> STEAMCORE_API UScriptStruct* StaticStruct<struct FPublishedFileID>();
 
-#define FID_SourcTree_DogsClub_Plugins_SteamCore_Source_SteamCore_Public_SteamCore_SteamTypes_h_1012_GENERATED_BODY \
+#define FID_Montee_SourceTree_Plugins_SteamCore_Source_SteamCore_Public_SteamCore_SteamTypes_h_1012_GENERATED_BODY \
 	friend struct Z_Construct_UScriptStruct_FRemoteStorageSubscribePublishedFileResult_Statics; \
 	STEAMCORE_API static class UScriptStruct* StaticStruct();
 
 
 template<> STEAMCORE_API UScriptStruct* StaticStruct<struct FRemoteStorageSubscribePublishedFileResult>();
 
-#define FID_SourcTree_DogsClub_Plugins_SteamCore_Source_SteamCore_Public_SteamCore_SteamTypes_h_1037_GENERATED_BODY \
+#define FID_Montee_SourceTree_Plugins_SteamCore_Source_SteamCore_Public_SteamCore_SteamTypes_h_1037_GENERATED_BODY \
 	friend struct Z_Construct_UScriptStruct_FHostPingData_Statics; \
 	STEAMCORE_API static class UScriptStruct* StaticStruct();
 
 
 template<> STEAMCORE_API UScriptStruct* StaticStruct<struct FHostPingData>();
 
-#define FID_SourcTree_DogsClub_Plugins_SteamCore_Source_SteamCore_Public_SteamCore_SteamTypes_h_1059_GENERATED_BODY \
+#define FID_Montee_SourceTree_Plugins_SteamCore_Source_SteamCore_Public_SteamCore_SteamTypes_h_1059_GENERATED_BODY \
 	friend struct Z_Construct_UScriptStruct_FSteamSessionSetting_Statics; \
 	STEAMCORE_API static class UScriptStruct* StaticStruct();
 
 
 template<> STEAMCORE_API UScriptStruct* StaticStruct<struct FSteamSessionSetting>();
 
-#define FID_SourcTree_DogsClub_Plugins_SteamCore_Source_SteamCore_Public_SteamCore_SteamTypes_h_1088_GENERATED_BODY \
+#define FID_Montee_SourceTree_Plugins_SteamCore_Source_SteamCore_Public_SteamCore_SteamTypes_h_1088_GENERATED_BODY \
 	friend struct Z_Construct_UScriptStruct_FSteamSessionSearchSetting_Statics; \
 	STEAMCORE_API static class UScriptStruct* StaticStruct();
 
 
 template<> STEAMCORE_API UScriptStruct* StaticStruct<struct FSteamSessionSearchSetting>();
 
-#define FID_SourcTree_DogsClub_Plugins_SteamCore_Source_SteamCore_Public_SteamCore_SteamTypes_h_1121_GENERATED_BODY \
+#define FID_Montee_SourceTree_Plugins_SteamCore_Source_SteamCore_Public_SteamCore_SteamTypes_h_1121_GENERATED_BODY \
 	friend struct Z_Construct_UScriptStruct_FSteamSessionResult_Statics; \
 	STEAMCORE_API static class UScriptStruct* StaticStruct();
 
 
 template<> STEAMCORE_API UScriptStruct* StaticStruct<struct FSteamSessionResult>();
 
-#define FID_SourcTree_DogsClub_Plugins_SteamCore_Source_SteamCore_Public_SteamCore_SteamTypes_h_1141_GENERATED_BODY \
+#define FID_Montee_SourceTree_Plugins_SteamCore_Source_SteamCore_Public_SteamCore_SteamTypes_h_1141_GENERATED_BODY \
 	friend struct Z_Construct_UScriptStruct_FPartyBeaconID_Statics; \
 	STEAMCORE_API static class UScriptStruct* StaticStruct();
 
@@ -106,7 +106,7 @@ template<> STEAMCORE_API UScriptStruct* StaticStruct<struct FSteamSessionResult>
 template<> STEAMCORE_API UScriptStruct* StaticStruct<struct FPartyBeaconID>();
 
 #undef CURRENT_FILE_ID
-#define CURRENT_FILE_ID FID_SourcTree_DogsClub_Plugins_SteamCore_Source_SteamCore_Public_SteamCore_SteamTypes_h
+#define CURRENT_FILE_ID FID_Montee_SourceTree_Plugins_SteamCore_Source_SteamCore_Public_SteamCore_SteamTypes_h
 
 
 #define FOREACH_ENUM_ESTEAMATTRIBUTETYPE(op) \

@@ -1,7 +1,8 @@
 {
 	"RemapUnityFiles": 
 	{
-		"Module.SteamCoreWeb.1_of_8.cpp.obj": [
+		"Module.SteamCoreWeb.1_of_2.cpp.obj": [
+			"WebApps.cpp.obj",
 			"SteamCoreWeb.gen.cpp.obj",
 			"SteamCoreWeb.init.gen.cpp.obj",
 			"SteamCoreWebAsync.gen.cpp.obj",
@@ -12,39 +13,29 @@
 			"WebAppsAsyncActions.gen.cpp.obj",
 			"WebBroadcastService.gen.cpp.obj",
 			"WebBroadcastServiceAsyncActions.gen.cpp.obj",
-			"WebCheatReporting.gen.cpp.obj"
-		],
-		"Module.SteamCoreWeb.2_of_8.cpp.obj": [
+			"WebCheatReporting.gen.cpp.obj",
 			"WebCheatReportingAsyncActions.gen.cpp.obj",
 			"WebEconMarketService.gen.cpp.obj",
 			"WebEconMarketServiceAsyncActions.gen.cpp.obj",
 			"WebEconService.gen.cpp.obj",
-			"WebEconServiceAsyncActions.gen.cpp.obj"
-		],
-		"Module.SteamCoreWeb.3_of_8.cpp.obj": [
+			"WebEconServiceAsyncActions.gen.cpp.obj",
 			"WebGameInventory.gen.cpp.obj",
 			"WebGameInventoryAsyncActions.gen.cpp.obj",
 			"WebGameNotificationsService.gen.cpp.obj",
 			"WebGameNotificationsServiceAsyncActions.gen.cpp.obj",
 			"WebGameServersService.gen.cpp.obj",
-			"WebInventoryService.gen.cpp.obj"
-		],
-		"Module.SteamCoreWeb.4_of_8.cpp.obj": [
+			"WebInventoryService.gen.cpp.obj",
 			"WebInventoryServiceAsyncActions.gen.cpp.obj",
 			"WebLeaderboards.gen.cpp.obj",
 			"WebLeaderboardsAsyncActions.gen.cpp.obj",
 			"WebLobbyMatchmakingService.gen.cpp.obj",
 			"WebLobbyMatchmakingServiceTypes.gen.cpp.obj",
-			"WebMicroTxn.gen.cpp.obj"
-		],
-		"Module.SteamCoreWeb.5_of_8.cpp.obj": [
+			"WebMicroTxn.gen.cpp.obj",
 			"WebMicroTxnAsyncActions.gen.cpp.obj",
 			"WebPlayerService.gen.cpp.obj",
 			"WebPlayerServiceAsyncActions.gen.cpp.obj",
 			"WebPublishedFileService.gen.cpp.obj",
-			"WebPublishedItemSearch.gen.cpp.obj"
-		],
-		"Module.SteamCoreWeb.6_of_8.cpp.obj": [
+			"WebPublishedItemSearch.gen.cpp.obj",
 			"WebPublishedItemSearchAsyncActions.gen.cpp.obj",
 			"WebPublishedItemVoting.gen.cpp.obj",
 			"WebPublishedItemVotingAsyncActions.gen.cpp.obj",
@@ -52,9 +43,7 @@
 			"WebRemoteStorageAsyncActions.gen.cpp.obj",
 			"WebSteamCommunity.gen.cpp.obj",
 			"WebSteamCommunityAsyncActions.gen.cpp.obj",
-			"WebSteamEconomy.gen.cpp.obj"
-		],
-		"Module.SteamCoreWeb.7_of_8.cpp.obj": [
+			"WebSteamEconomy.gen.cpp.obj",
 			"WebSteamEconomyAsyncActions.gen.cpp.obj",
 			"WebSteamGameServerStats.gen.cpp.obj",
 			"WebSteamNews.gen.cpp.obj",
@@ -62,13 +51,12 @@
 			"WebSteamUser.gen.cpp.obj",
 			"WebSteamUserAsyncActions.gen.cpp.obj",
 			"WebSteamUserTypes.gen.cpp.obj",
-			"WebUserAuth.gen.cpp.obj"
-		],
-		"Module.SteamCoreWeb.8_of_8.cpp.obj": [
+			"WebUserAuth.gen.cpp.obj",
 			"WebUserAuthAsyncActions.gen.cpp.obj",
 			"WebUserStats.gen.cpp.obj",
-			"WebUserStatsAsyncActions.gen.cpp.obj",
-			"WebApps.cpp.obj",
+			"WebUserStatsAsyncActions.gen.cpp.obj"
+		],
+		"Module.SteamCoreWeb.2_of_2.cpp.obj": [
 			"WebAppsAsyncActions.cpp.obj",
 			"WebBroadcastService.cpp.obj",
 			"WebBroadcastServiceAsyncActions.cpp.obj",

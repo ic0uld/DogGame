@@ -69,7 +69,7 @@
 #define UE_DISABLE_INLINE_GEN_CPP 0
 #define UE_ENABLE_INCLUDE_ORDER_DEPRECATED_IN_5_1 1
 #define UE_ENABLE_INCLUDE_ORDER_DEPRECATED_IN_5_2 1
-#define UE_PROJECT_NAME CommandoHero
+#define UE_PROJECT_NAME DogsClub
 #define UE_TARGET_NAME CommandoHeroEditor
 #define UE_MODULE_NAME "SimpleSteamLeaderboards"
 #define UE_PLUGIN_NAME "SimpleSteamLeaderboards"

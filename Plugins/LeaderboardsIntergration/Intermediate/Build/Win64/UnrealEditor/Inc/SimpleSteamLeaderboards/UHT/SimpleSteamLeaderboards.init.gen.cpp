@@ -23,7 +23,7 @@ void EmptyLinkFunctionForGeneratedCodeSimpleSteamLeaderboards_init() {}
 				SingletonFuncArray,
 				UE_ARRAY_COUNT(SingletonFuncArray),
 				PKG_CompiledIn | 0x00000000,
-				0xFD702D15,
+				0x9E9D6B94,
 				0x0CD5B5F7,
 				METADATA_PARAMS(nullptr, 0)
 			};
@@ -31,5 +31,5 @@ void EmptyLinkFunctionForGeneratedCodeSimpleSteamLeaderboards_init() {}
 		}
 		return Z_Registration_Info_UPackage__Script_SimpleSteamLeaderboards.OuterSingleton;
 	}
-	static FRegisterCompiledInInfo Z_CompiledInDeferPackage_UPackage__Script_SimpleSteamLeaderboards(Z_Construct_UPackage__Script_SimpleSteamLeaderboards, TEXT("/Script/SimpleSteamLeaderboards"), Z_Registration_Info_UPackage__Script_SimpleSteamLeaderboards, CONSTRUCT_RELOAD_VERSION_INFO(FPackageReloadVersionInfo, 0xFD702D15, 0x0CD5B5F7));
+	static FRegisterCompiledInInfo Z_CompiledInDeferPackage_UPackage__Script_SimpleSteamLeaderboards(Z_Construct_UPackage__Script_SimpleSteamLeaderboards, TEXT("/Script/SimpleSteamLeaderboards"), Z_Registration_Info_UPackage__Script_SimpleSteamLeaderboards, CONSTRUCT_RELOAD_VERSION_INFO(FPackageReloadVersionInfo, 0x9E9D6B94, 0x0CD5B5F7));
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

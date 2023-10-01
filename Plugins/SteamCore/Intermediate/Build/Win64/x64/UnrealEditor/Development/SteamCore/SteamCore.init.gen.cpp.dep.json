@@ -1,0 +1,14 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "d:\\montee\\sourcetree\\plugins\\steamcore\\intermediate\\build\\win64\\unrealeditor\\inc\\steamcore\\uht\\steamcore.init.gen.cpp",
+        "ProvidedModule": "",
+        "PCH": "d:\\montee\\sourcetree\\plugins\\steamcore\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\steamcore\\pch.steamcore.h.pch",
+        "Includes": [
+            "d:\\epic\\ue_5.2\\engine\\source\\runtime\\coreuobject\\public\\uobject\\generatedcppincludes.h",
+            "d:\\epic\\ue_5.2\\engine\\source\\runtime\\coreuobject\\public\\uobject\\metadata.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

@@ -6,7 +6,10 @@
 /NAME:"UnrealEditor-SimpleSteamLeaderboards.dll"
 /IGNORE:4221
 /NODEFAULTLIB
-"E:\SourcTree\DogsClub\Intermediate\Build\Win64\x64\CommandoHeroEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.InclOrderUnreal5_0.h.obj"
-"E:\SourcTree\DogsClub\Plugins\LeaderboardsIntergration\Intermediate\Build\Win64\x64\UnrealEditor\Development\SimpleSteamLeaderboards\Module.SimpleSteamLeaderboards.cpp.obj"
-"E:\SourcTree\DogsClub\Plugins\LeaderboardsIntergration\Intermediate\Build\Win64\x64\UnrealEditor\Development\SimpleSteamLeaderboards\Default.rc2.res"
-/OUT:"E:\SourcTree\DogsClub\Plugins\LeaderboardsIntergration\Intermediate\Build\Win64\x64\UnrealEditor\Development\SimpleSteamLeaderboards\UnrealEditor-SimpleSteamLeaderboards.lib"
+"D:\Montee\SourceTree\Intermediate\Build\Win64\x64\CommandoHeroEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.InclOrderUnreal5_0.h.obj"
+"D:\Montee\SourceTree\Plugins\LeaderboardsIntergration\Intermediate\Build\Win64\x64\UnrealEditor\Development\SimpleSteamLeaderboards\Module.SimpleSteamLeaderboards.cpp.obj"
+"D:\Montee\SourceTree\Plugins\LeaderboardsIntergration\Intermediate\Build\Win64\x64\UnrealEditor\Development\SimpleSteamLeaderboards\DownloadSteamLeaderboardEntries.gen.cpp.obj"
+"D:\Montee\SourceTree\Plugins\LeaderboardsIntergration\Intermediate\Build\Win64\x64\UnrealEditor\Development\SimpleSteamLeaderboards\SimpleSteamLeaderboards.init.gen.cpp.obj"
+"D:\Montee\SourceTree\Plugins\LeaderboardsIntergration\Intermediate\Build\Win64\x64\UnrealEditor\Development\SimpleSteamLeaderboards\UploadScoreToSteamLeaderboard.gen.cpp.obj"
+"D:\Montee\SourceTree\Plugins\LeaderboardsIntergration\Intermediate\Build\Win64\x64\UnrealEditor\Development\SimpleSteamLeaderboards\Default.rc2.res"
+/OUT:"D:\Montee\SourceTree\Plugins\LeaderboardsIntergration\Intermediate\Build\Win64\x64\UnrealEditor\Development\SimpleSteamLeaderboards\UnrealEditor-SimpleSteamLeaderboards.lib"
