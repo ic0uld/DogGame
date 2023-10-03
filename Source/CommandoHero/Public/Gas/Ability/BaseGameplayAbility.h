@@ -3,7 +3,6 @@
 #pragma once
 
 #include "CoreMinimal.h"
-#include "BaseCharacter.h"
 #include "Abilities/GameplayAbility.h"
 #include "BaseGameplayAbility.generated.h"
 
@@ -33,7 +32,7 @@ protected:
 	UPROPERTY(EditDefaultsOnly, Category= "Effects")
 	TArray<FActiveGameplayEffectHandle> RemoveOnEndEffectHandle;
 
-	UFUNCTION(BlueprintCallable, BlueprintPure)
-	ABaseCharacter* GetActionShooterCharacterFromActorInfo() const;
+	//UFUNCTION(BlueprintCallable, BlueprintPure)
+	//ABaseCharacter* GetActionShooterCharacterFromActorInfo() const;
 	
 };

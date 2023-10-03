@@ -2,16 +2,13 @@
 
 
 #include "Components/BaseAnimInstance.h"
-
-#include "BaseCharacter.h"
 #include "ClassTypes.h"
 #include "Animation/BlendSpace.h"
 #include "Animation/AnimationAsset.h"
 #include "Animation/AnimSequence.h"
-#include "BaseCharacter.h"
 #include "CommandoHero/Data/CharaterAnimDataAsset.h"
 
-
+/*
 UBlendSpace* UBaseAnimInstance::GetLocomotionBlendSpace() const
 {
 	if (ABaseCharacter* ActionShooterCharacter = Cast<ABaseCharacter>(GetOwningActor()))
@@ -76,3 +73,4 @@ UAnimSequenceBase* UBaseAnimInstance::GetCrouchIdleAnimationAsset() const
 	return DefaultCharacterAnimDataAsset ? DefaultCharacterAnimDataAsset->CharacterAnimationData.CrouchIdleAnimationAsset: nullptr;
 	
 }
+*/

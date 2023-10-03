@@ -16,7 +16,7 @@ class COMMANDOHERO_API UBaseAnimInstance : public UAnimInstance
 	GENERATED_BODY()
 
 public:
-
+/*
 	UFUNCTION(BlueprintCallable, meta= (BlueprintThreadSafe))
 	class UBlendSpace* GetLocomotionBlendSpace() const;
 
@@ -31,5 +31,5 @@ public:
 
 	UPROPERTY(BlueprintReadWrite, EditAnywhere, Category= "Animation")
 	class UCharaterAnimDataAsset* DefaultCharacterAnimDataAsset;
-	
+	*/
 };
