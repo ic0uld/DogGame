@@ -29,8 +29,8 @@ struct FUGCUpdateHandle;
 #endif
 #define STEAMCORE_SteamUGC_generated_h
 
-#define FID_Montee_SourceTree_Plugins_SteamCore_Source_SteamCore_Public_SteamUGC_SteamUGC_h_17_SPARSE_DATA
-#define FID_Montee_SourceTree_Plugins_SteamCore_Source_SteamCore_Public_SteamUGC_SteamUGC_h_17_RPC_WRAPPERS \
+#define FID_SourcTree_DogsClub_Plugins_SteamCore_Source_SteamCore_Public_SteamUGC_SteamUGC_h_17_SPARSE_DATA
+#define FID_SourcTree_DogsClub_Plugins_SteamCore_Source_SteamCore_Public_SteamUGC_SteamUGC_h_17_RPC_WRAPPERS \
  \
 	DECLARE_FUNCTION(execUpdateItemPreviewVideo); \
 	DECLARE_FUNCTION(execUpdateItemPreviewFile); \
@@ -112,7 +112,7 @@ struct FUGCUpdateHandle;
 	DECLARE_FUNCTION(execAddAppDependency);
 
 
-#define FID_Montee_SourceTree_Plugins_SteamCore_Source_SteamCore_Public_SteamUGC_SteamUGC_h_17_RPC_WRAPPERS_NO_PURE_DECLS \
+#define FID_SourcTree_DogsClub_Plugins_SteamCore_Source_SteamCore_Public_SteamUGC_SteamUGC_h_17_RPC_WRAPPERS_NO_PURE_DECLS \
  \
 	DECLARE_FUNCTION(execUpdateItemPreviewVideo); \
 	DECLARE_FUNCTION(execUpdateItemPreviewFile); \
@@ -194,8 +194,8 @@ struct FUGCUpdateHandle;
 	DECLARE_FUNCTION(execAddAppDependency);
 
 
-#define FID_Montee_SourceTree_Plugins_SteamCore_Source_SteamCore_Public_SteamUGC_SteamUGC_h_17_ACCESSORS
-#define FID_Montee_SourceTree_Plugins_SteamCore_Source_SteamCore_Public_SteamUGC_SteamUGC_h_17_INCLASS_NO_PURE_DECLS \
+#define FID_SourcTree_DogsClub_Plugins_SteamCore_Source_SteamCore_Public_SteamUGC_SteamUGC_h_17_ACCESSORS
+#define FID_SourcTree_DogsClub_Plugins_SteamCore_Source_SteamCore_Public_SteamUGC_SteamUGC_h_17_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesUUGC(); \
 	friend struct Z_Construct_UClass_UUGC_Statics; \
@@ -204,7 +204,7 @@ public: \
 	DECLARE_SERIALIZER(UUGC)
 
 
-#define FID_Montee_SourceTree_Plugins_SteamCore_Source_SteamCore_Public_SteamUGC_SteamUGC_h_17_INCLASS \
+#define FID_SourcTree_DogsClub_Plugins_SteamCore_Source_SteamCore_Public_SteamUGC_SteamUGC_h_17_INCLASS \
 private: \
 	static void StaticRegisterNativesUUGC(); \
 	friend struct Z_Construct_UClass_UUGC_Statics; \
@@ -213,7 +213,7 @@ public: \
 	DECLARE_SERIALIZER(UUGC)
 
 
-#define FID_Montee_SourceTree_Plugins_SteamCore_Source_SteamCore_Public_SteamUGC_SteamUGC_h_17_STANDARD_CONSTRUCTORS \
+#define FID_SourcTree_DogsClub_Plugins_SteamCore_Source_SteamCore_Public_SteamUGC_SteamUGC_h_17_STANDARD_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	NO_API UUGC(const FObjectInitializer& ObjectInitializer); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UUGC) \
@@ -227,7 +227,7 @@ public: \
 	NO_API virtual ~UUGC();
 
 
-#define FID_Montee_SourceTree_Plugins_SteamCore_Source_SteamCore_Public_SteamUGC_SteamUGC_h_17_ENHANCED_CONSTRUCTORS \
+#define FID_SourcTree_DogsClub_Plugins_SteamCore_Source_SteamCore_Public_SteamUGC_SteamUGC_h_17_ENHANCED_CONSTRUCTORS \
 private: \
 	/** Private move- and copy-constructors, should never be used */ \
 	NO_API UUGC(UUGC&&); \
@@ -239,27 +239,27 @@ public: \
 	NO_API virtual ~UUGC();
 
 
-#define FID_Montee_SourceTree_Plugins_SteamCore_Source_SteamCore_Public_SteamUGC_SteamUGC_h_14_PROLOG
-#define FID_Montee_SourceTree_Plugins_SteamCore_Source_SteamCore_Public_SteamUGC_SteamUGC_h_17_GENERATED_BODY_LEGACY \
+#define FID_SourcTree_DogsClub_Plugins_SteamCore_Source_SteamCore_Public_SteamUGC_SteamUGC_h_14_PROLOG
+#define FID_SourcTree_DogsClub_Plugins_SteamCore_Source_SteamCore_Public_SteamUGC_SteamUGC_h_17_GENERATED_BODY_LEGACY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	FID_Montee_SourceTree_Plugins_SteamCore_Source_SteamCore_Public_SteamUGC_SteamUGC_h_17_SPARSE_DATA \
-	FID_Montee_SourceTree_Plugins_SteamCore_Source_SteamCore_Public_SteamUGC_SteamUGC_h_17_RPC_WRAPPERS \
-	FID_Montee_SourceTree_Plugins_SteamCore_Source_SteamCore_Public_SteamUGC_SteamUGC_h_17_ACCESSORS \
-	FID_Montee_SourceTree_Plugins_SteamCore_Source_SteamCore_Public_SteamUGC_SteamUGC_h_17_INCLASS \
-	FID_Montee_SourceTree_Plugins_SteamCore_Source_SteamCore_Public_SteamUGC_SteamUGC_h_17_STANDARD_CONSTRUCTORS \
+	FID_SourcTree_DogsClub_Plugins_SteamCore_Source_SteamCore_Public_SteamUGC_SteamUGC_h_17_SPARSE_DATA \
+	FID_SourcTree_DogsClub_Plugins_SteamCore_Source_SteamCore_Public_SteamUGC_SteamUGC_h_17_RPC_WRAPPERS \
+	FID_SourcTree_DogsClub_Plugins_SteamCore_Source_SteamCore_Public_SteamUGC_SteamUGC_h_17_ACCESSORS \
+	FID_SourcTree_DogsClub_Plugins_SteamCore_Source_SteamCore_Public_SteamUGC_SteamUGC_h_17_INCLASS \
+	FID_SourcTree_DogsClub_Plugins_SteamCore_Source_SteamCore_Public_SteamUGC_SteamUGC_h_17_STANDARD_CONSTRUCTORS \
 public: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
 
-#define FID_Montee_SourceTree_Plugins_SteamCore_Source_SteamCore_Public_SteamUGC_SteamUGC_h_17_GENERATED_BODY \
+#define FID_SourcTree_DogsClub_Plugins_SteamCore_Source_SteamCore_Public_SteamUGC_SteamUGC_h_17_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	FID_Montee_SourceTree_Plugins_SteamCore_Source_SteamCore_Public_SteamUGC_SteamUGC_h_17_SPARSE_DATA \
-	FID_Montee_SourceTree_Plugins_SteamCore_Source_SteamCore_Public_SteamUGC_SteamUGC_h_17_RPC_WRAPPERS_NO_PURE_DECLS \
-	FID_Montee_SourceTree_Plugins_SteamCore_Source_SteamCore_Public_SteamUGC_SteamUGC_h_17_ACCESSORS \
-	FID_Montee_SourceTree_Plugins_SteamCore_Source_SteamCore_Public_SteamUGC_SteamUGC_h_17_INCLASS_NO_PURE_DECLS \
-	FID_Montee_SourceTree_Plugins_SteamCore_Source_SteamCore_Public_SteamUGC_SteamUGC_h_17_ENHANCED_CONSTRUCTORS \
+	FID_SourcTree_DogsClub_Plugins_SteamCore_Source_SteamCore_Public_SteamUGC_SteamUGC_h_17_SPARSE_DATA \
+	FID_SourcTree_DogsClub_Plugins_SteamCore_Source_SteamCore_Public_SteamUGC_SteamUGC_h_17_RPC_WRAPPERS_NO_PURE_DECLS \
+	FID_SourcTree_DogsClub_Plugins_SteamCore_Source_SteamCore_Public_SteamUGC_SteamUGC_h_17_ACCESSORS \
+	FID_SourcTree_DogsClub_Plugins_SteamCore_Source_SteamCore_Public_SteamUGC_SteamUGC_h_17_INCLASS_NO_PURE_DECLS \
+	FID_SourcTree_DogsClub_Plugins_SteamCore_Source_SteamCore_Public_SteamUGC_SteamUGC_h_17_ENHANCED_CONSTRUCTORS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
@@ -267,7 +267,7 @@ PRAGMA_ENABLE_DEPRECATION_WARNINGS
 template<> STEAMCORE_API UClass* StaticClass<class UUGC>();
 
 #undef CURRENT_FILE_ID
-#define CURRENT_FILE_ID FID_Montee_SourceTree_Plugins_SteamCore_Source_SteamCore_Public_SteamUGC_SteamUGC_h
+#define CURRENT_FILE_ID FID_SourcTree_DogsClub_Plugins_SteamCore_Source_SteamCore_Public_SteamUGC_SteamUGC_h
 
 
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

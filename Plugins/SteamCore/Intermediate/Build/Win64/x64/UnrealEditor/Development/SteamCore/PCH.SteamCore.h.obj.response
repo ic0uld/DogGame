@@ -1,8 +1,8 @@
-D:\Montee\SourceTree\Plugins\SteamCore\Intermediate\Build\Win64\x64\UnrealEditor\Development\SteamCore\PCH.SteamCore.cpp
+E:\SourcTree\DogsClub\Plugins\SteamCore\Intermediate\Build\Win64\x64\UnrealEditor\Development\SteamCore\PCH.SteamCore.cpp
 /I .
-/I D:\Montee\SourceTree\Plugins\SteamCore\Source\SteamCore\Public\SteamCore
-/I D:\Montee\SourceTree\Plugins\SteamCore\Source\SteamCore\Private\SteamCore
-/I D:\Montee\SourceTree\Plugins\SteamCore\Source\SteamCore\Private
+/I E:\SourcTree\DogsClub\Plugins\SteamCore\Source\SteamCore\Public\SteamCore
+/I E:\SourcTree\DogsClub\Plugins\SteamCore\Source\SteamCore\Private\SteamCore
+/I E:\SourcTree\DogsClub\Plugins\SteamCore\Source\SteamCore\Private
 /I Runtime\Online\HTTP\Public
 /I Runtime\Online
 /I Runtime\TraceLog\Public
@@ -16,9 +16,9 @@ D:\Montee\SourceTree\Plugins\SteamCore\Intermediate\Build\Win64\x64\UnrealEditor
 /I Runtime\SignalProcessing\Public
 /I ThirdParty\Intel
 /I Runtime\AudioMixerCore\Public
-/I D:\Montee\SourceTree\Plugins\SteamCore\Intermediate\Build\Win64\UnrealEditor\Inc\SteamCore\UHT
-/I D:\Montee\SourceTree\Plugins\SteamCore\Source
-/I D:\Montee\SourceTree\Plugins\SteamCore\Source\SteamCore\Public
+/I E:\SourcTree\DogsClub\Plugins\SteamCore\Intermediate\Build\Win64\UnrealEditor\Inc\SteamCore\UHT
+/I E:\SourcTree\DogsClub\Plugins\SteamCore\Source
+/I E:\SourcTree\DogsClub\Plugins\SteamCore\Source\SteamCore\Public
 /I ..\Intermediate\Build\Win64\UnrealEditor\Inc\Engine\UHT
 /I ..\Shaders\Shared
 /I Runtime\Engine\Classes
@@ -299,15 +299,15 @@ D:\Montee\SourceTree\Plugins\SteamCore\Intermediate\Build\Win64\x64\UnrealEditor
 /external:I ThirdParty\Steamworks\Steamv153\sdk\public
 /external:I ThirdParty\LibTiff\Source\Win64
 /external:I ThirdParty\LibTiff\Source
-/external:I "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\INCLUDE"
+/external:I "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.36.32532\INCLUDE"
 /external:I "C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\ucrt"
 /external:I "C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\shared"
 /external:I "C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\um"
 /external:I "C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\winrt"
-/Yc"D:\Montee\SourceTree\Plugins\SteamCore\Intermediate\Build\Win64\x64\UnrealEditor\Development\SteamCore\PCH.SteamCore.h"
-/Fp"D:\Montee\SourceTree\Plugins\SteamCore\Intermediate\Build\Win64\x64\UnrealEditor\Development\SteamCore\PCH.SteamCore.h.pch"
-/Fo"D:\Montee\SourceTree\Plugins\SteamCore\Intermediate\Build\Win64\x64\UnrealEditor\Development\SteamCore\PCH.SteamCore.h.obj"
-/sourceDependencies D:\Montee\SourceTree\Plugins\SteamCore\Intermediate\Build\Win64\x64\UnrealEditor\Development\SteamCore\PCH.SteamCore.h.dep.json
+/Yc"E:\SourcTree\DogsClub\Plugins\SteamCore\Intermediate\Build\Win64\x64\UnrealEditor\Development\SteamCore\PCH.SteamCore.h"
+/Fp"E:\SourcTree\DogsClub\Plugins\SteamCore\Intermediate\Build\Win64\x64\UnrealEditor\Development\SteamCore\PCH.SteamCore.h.pch"
+/Fo"E:\SourcTree\DogsClub\Plugins\SteamCore\Intermediate\Build\Win64\x64\UnrealEditor\Development\SteamCore\PCH.SteamCore.h.obj"
+/sourceDependencies E:\SourcTree\DogsClub\Plugins\SteamCore\Intermediate\Build\Win64\x64\UnrealEditor\Development\SteamCore\PCH.SteamCore.h.dep.json
 /Zc:inline
 /nologo
 /Oi

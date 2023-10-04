@@ -14,7 +14,7 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #endif
 #define STEAMCORE_SteamNetworkingUtilsTypes_generated_h
 
-#define FID_Montee_SourceTree_Plugins_SteamCore_Source_SteamCore_Public_SteamNetworkingUtils_SteamNetworkingUtilsTypes_h_21_GENERATED_BODY \
+#define FID_SourcTree_DogsClub_Plugins_SteamCore_Source_SteamCore_Public_SteamNetworkingUtils_SteamNetworkingUtilsTypes_h_21_GENERATED_BODY \
 	friend struct Z_Construct_UScriptStruct_FSteamNetworkPingLocation_Statics; \
 	STEAMCORE_API static class UScriptStruct* StaticStruct();
 
@@ -22,7 +22,7 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 template<> STEAMCORE_API UScriptStruct* StaticStruct<struct FSteamNetworkPingLocation>();
 
 #undef CURRENT_FILE_ID
-#define CURRENT_FILE_ID FID_Montee_SourceTree_Plugins_SteamCore_Source_SteamCore_Public_SteamNetworkingUtils_SteamNetworkingUtilsTypes_h
+#define CURRENT_FILE_ID FID_SourcTree_DogsClub_Plugins_SteamCore_Source_SteamCore_Public_SteamNetworkingUtils_SteamNetworkingUtilsTypes_h
 
 
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

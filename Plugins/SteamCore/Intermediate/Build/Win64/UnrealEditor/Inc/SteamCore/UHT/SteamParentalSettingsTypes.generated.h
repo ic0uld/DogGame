@@ -14,7 +14,7 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #endif
 #define STEAMCORE_SteamParentalSettingsTypes_generated_h
 
-#define FID_Montee_SourceTree_Plugins_SteamCore_Source_SteamCore_Public_SteamParentalSettings_SteamParentalSettingsTypes_h_44_GENERATED_BODY \
+#define FID_SourcTree_DogsClub_Plugins_SteamCore_Source_SteamCore_Public_SteamParentalSettings_SteamParentalSettingsTypes_h_44_GENERATED_BODY \
 	friend struct Z_Construct_UScriptStruct_FSteamParentalSettingsChanged_Statics; \
 	STEAMCORE_API static class UScriptStruct* StaticStruct();
 
@@ -22,7 +22,7 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 template<> STEAMCORE_API UScriptStruct* StaticStruct<struct FSteamParentalSettingsChanged>();
 
 #undef CURRENT_FILE_ID
-#define CURRENT_FILE_ID FID_Montee_SourceTree_Plugins_SteamCore_Source_SteamCore_Public_SteamParentalSettings_SteamParentalSettingsTypes_h
+#define CURRENT_FILE_ID FID_SourcTree_DogsClub_Plugins_SteamCore_Source_SteamCore_Public_SteamParentalSettings_SteamParentalSettingsTypes_h
 
 
 #define FOREACH_ENUM_ESTEAMPARENTALFEATURE(op) \

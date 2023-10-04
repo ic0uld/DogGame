@@ -16,30 +16,30 @@ struct FGetVideoURLResult;
 #endif
 #define STEAMCORE_SteamVideoTypes_generated_h
 
-#define FID_Montee_SourceTree_Plugins_SteamCore_Source_SteamCore_Public_SteamVideo_SteamVideoTypes_h_43_GENERATED_BODY \
+#define FID_SourcTree_DogsClub_Plugins_SteamCore_Source_SteamCore_Public_SteamVideo_SteamVideoTypes_h_43_GENERATED_BODY \
 	friend struct Z_Construct_UScriptStruct_FGetOPFSettingsResult_Statics; \
 	STEAMCORE_API static class UScriptStruct* StaticStruct();
 
 
 template<> STEAMCORE_API UScriptStruct* StaticStruct<struct FGetOPFSettingsResult>();
 
-#define FID_Montee_SourceTree_Plugins_SteamCore_Source_SteamCore_Public_SteamVideo_SteamVideoTypes_h_69_GENERATED_BODY \
+#define FID_SourcTree_DogsClub_Plugins_SteamCore_Source_SteamCore_Public_SteamVideo_SteamVideoTypes_h_69_GENERATED_BODY \
 	friend struct Z_Construct_UScriptStruct_FGetVideoURLResult_Statics; \
 	STEAMCORE_API static class UScriptStruct* StaticStruct();
 
 
 template<> STEAMCORE_API UScriptStruct* StaticStruct<struct FGetVideoURLResult>();
 
-#define FID_Montee_SourceTree_Plugins_SteamCore_Source_SteamCore_Public_SteamVideo_SteamVideoTypes_h_98_DELEGATE \
+#define FID_SourcTree_DogsClub_Plugins_SteamCore_Source_SteamCore_Public_SteamVideo_SteamVideoTypes_h_98_DELEGATE \
 STEAMCORE_API void FOnGetOPFSettingsResult_DelegateWrapper(const FMulticastScriptDelegate& OnGetOPFSettingsResult, FGetOPFSettingsResult const& Data);
 
 
-#define FID_Montee_SourceTree_Plugins_SteamCore_Source_SteamCore_Public_SteamVideo_SteamVideoTypes_h_99_DELEGATE \
+#define FID_SourcTree_DogsClub_Plugins_SteamCore_Source_SteamCore_Public_SteamVideo_SteamVideoTypes_h_99_DELEGATE \
 STEAMCORE_API void FOnGetVideoURLResult_DelegateWrapper(const FMulticastScriptDelegate& OnGetVideoURLResult, FGetVideoURLResult const& Data);
 
 
 #undef CURRENT_FILE_ID
-#define CURRENT_FILE_ID FID_Montee_SourceTree_Plugins_SteamCore_Source_SteamCore_Public_SteamVideo_SteamVideoTypes_h
+#define CURRENT_FILE_ID FID_SourcTree_DogsClub_Plugins_SteamCore_Source_SteamCore_Public_SteamVideo_SteamVideoTypes_h
 
 
 #define FOREACH_ENUM_ESTEAMBROADCASTUPLOADRESULT(op) \

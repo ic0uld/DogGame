@@ -766,15 +766,15 @@ void EmptyLinkFunctionForGeneratedCodeWebApps() {}
 	}
 	DEFINE_VTABLE_PTR_HELPER_CTOR(UWebApps);
 	UWebApps::~UWebApps() {}
-	struct Z_CompiledInDeferFile_FID_Montee_SourceTree_Plugins_SteamCore_Source_SteamCoreWeb_Public_Apps_WebApps_h_Statics
+	struct Z_CompiledInDeferFile_FID_SourcTree_DogsClub_Plugins_SteamCore_Source_SteamCoreWeb_Public_Apps_WebApps_h_Statics
 	{
 		static const FClassRegisterCompiledInInfo ClassInfo[];
 	};
-	const FClassRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Montee_SourceTree_Plugins_SteamCore_Source_SteamCoreWeb_Public_Apps_WebApps_h_Statics::ClassInfo[] = {
+	const FClassRegisterCompiledInInfo Z_CompiledInDeferFile_FID_SourcTree_DogsClub_Plugins_SteamCore_Source_SteamCoreWeb_Public_Apps_WebApps_h_Statics::ClassInfo[] = {
 		{ Z_Construct_UClass_UWebApps, UWebApps::StaticClass, TEXT("UWebApps"), &Z_Registration_Info_UClass_UWebApps, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UWebApps), 1935875859U) },
 	};
-	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Montee_SourceTree_Plugins_SteamCore_Source_SteamCoreWeb_Public_Apps_WebApps_h_738693582(TEXT("/Script/SteamCoreWeb"),
-		Z_CompiledInDeferFile_FID_Montee_SourceTree_Plugins_SteamCore_Source_SteamCoreWeb_Public_Apps_WebApps_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_Montee_SourceTree_Plugins_SteamCore_Source_SteamCoreWeb_Public_Apps_WebApps_h_Statics::ClassInfo),
+	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_SourcTree_DogsClub_Plugins_SteamCore_Source_SteamCoreWeb_Public_Apps_WebApps_h_738693582(TEXT("/Script/SteamCoreWeb"),
+		Z_CompiledInDeferFile_FID_SourcTree_DogsClub_Plugins_SteamCore_Source_SteamCoreWeb_Public_Apps_WebApps_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_SourcTree_DogsClub_Plugins_SteamCore_Source_SteamCoreWeb_Public_Apps_WebApps_h_Statics::ClassInfo),
 		nullptr, 0,
 		nullptr, 0);
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

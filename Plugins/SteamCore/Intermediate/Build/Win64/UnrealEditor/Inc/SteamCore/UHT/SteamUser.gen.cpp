@@ -1522,15 +1522,15 @@ void EmptyLinkFunctionForGeneratedCodeSteamUser() {}
 	}
 	DEFINE_VTABLE_PTR_HELPER_CTOR(UUser);
 	UUser::~UUser() {}
-	struct Z_CompiledInDeferFile_FID_Montee_SourceTree_Plugins_SteamCore_Source_SteamCore_Public_SteamUser_SteamUser_h_Statics
+	struct Z_CompiledInDeferFile_FID_SourcTree_DogsClub_Plugins_SteamCore_Source_SteamCore_Public_SteamUser_SteamUser_h_Statics
 	{
 		static const FClassRegisterCompiledInInfo ClassInfo[];
 	};
-	const FClassRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Montee_SourceTree_Plugins_SteamCore_Source_SteamCore_Public_SteamUser_SteamUser_h_Statics::ClassInfo[] = {
+	const FClassRegisterCompiledInInfo Z_CompiledInDeferFile_FID_SourcTree_DogsClub_Plugins_SteamCore_Source_SteamCore_Public_SteamUser_SteamUser_h_Statics::ClassInfo[] = {
 		{ Z_Construct_UClass_UUser, UUser::StaticClass, TEXT("UUser"), &Z_Registration_Info_UClass_UUser, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UUser), 3560943948U) },
 	};
-	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Montee_SourceTree_Plugins_SteamCore_Source_SteamCore_Public_SteamUser_SteamUser_h_918465679(TEXT("/Script/SteamCore"),
-		Z_CompiledInDeferFile_FID_Montee_SourceTree_Plugins_SteamCore_Source_SteamCore_Public_SteamUser_SteamUser_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_Montee_SourceTree_Plugins_SteamCore_Source_SteamCore_Public_SteamUser_SteamUser_h_Statics::ClassInfo),
+	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_SourcTree_DogsClub_Plugins_SteamCore_Source_SteamCore_Public_SteamUser_SteamUser_h_918465679(TEXT("/Script/SteamCore"),
+		Z_CompiledInDeferFile_FID_SourcTree_DogsClub_Plugins_SteamCore_Source_SteamCore_Public_SteamUser_SteamUser_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_SourcTree_DogsClub_Plugins_SteamCore_Source_SteamCore_Public_SteamUser_SteamUser_h_Statics::ClassInfo),
 		nullptr, 0,
 		nullptr, 0);
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
