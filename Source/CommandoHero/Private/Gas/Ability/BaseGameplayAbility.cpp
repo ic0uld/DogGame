@@ -12,19 +12,26 @@ void UBaseGameplayAbility::ActivateAbility(const FGameplayAbilitySpecHandle Hand
 	Super::ActivateAbility(Handle, ActorInfo, ActivationInfo, TriggerEventData);
 	FGameplayEffectContextHandle EffectContextHandle = ActorInfo->AbilitySystemComponent->MakeEffectContext();
 
-	for (auto GameplayEffect : OngoingEffectToJustApplyOnStart)
+	Super::ActivateAbility(Handle, ActorInfo, ActivationInfo, TriggerEventData);
+
+	FGameplayEffectContextHandle EffectContext = ActorInfo->AbilitySystemComponent->MakeEffectContext();
+
+	for (auto GameplayEffect : OngoingEffectsToJustApplyOnStart)
 	{
 		if (!GameplayEffect.Get()) continue;
+
+		if (UAbilitySystemComponent* AbilityComponent = ActorInfo->AbilitySystemComponent.Get())
 		{
-			if (UAbilitySystemComponent* AbilitySystemComponent = ActorInfo->AbilitySystemComponent.Get())
+			FGameplayEffectSpecHandle SpecHandle = AbilityComponent->MakeOutgoingSpec(GameplayEffect, 1, EffectContext);
+			if (SpecHandle.IsValid())
 			{
-				FGameplayEffectSpecHandle SpecHandle = AbilitySystemComponent->MakeOutgoingSpec(GameplayEffect, 1, EffectContextHandle);
-				if (SpecHandle.IsValid())
+				FActiveGameplayEffectHandle ActiveGEHandle = AbilityComponent->ApplyGameplayEffectSpecToSelf(*SpecHandle.Data.Get());
+				if (!ActiveGEHandle.WasSuccessfullyApplied())
 				{
-					FActiveGameplayEffectHandle ActiveGameplayEffectHandle = AbilitySystemComponent->ApplyGameplayEffectSpecToSelf(*SpecHandle.Data.Get());
-					if (!ActiveGameplayEffectHandle.WasSuccessfullyApplied())
+					if (GEngine)
 					{
-						UE_LOG(LogTemp, Error, TEXT("Failed to apply startup effect! %s"), *GetNameSafe(GameplayEffect));
+						FString YourMessage = TEXT("Ability"); 
+						GEngine->AddOnScreenDebugMessage(-1, 5.f, FColor::Red, YourMessage);
 					}
 				}
 			}
@@ -33,24 +40,23 @@ void UBaseGameplayAbility::ActivateAbility(const FGameplayAbilitySpecHandle Hand
 
 	if (IsInstantiated())
 	{
-		for (auto GameplayEffect : OngoingEffectToRemoveOnEnd)
+		for (auto GameplayEffect : OngoingEffectsToRemoveOnEnd)
 		{
 			if (!GameplayEffect.Get()) continue;
+
+			if (UAbilitySystemComponent* AbilityComponent = ActorInfo->AbilitySystemComponent.Get())
 			{
-				if (UAbilitySystemComponent* AbilitySystemComponent = ActorInfo->AbilitySystemComponent.Get())
+				FGameplayEffectSpecHandle SpecHandle = AbilityComponent->MakeOutgoingSpec(GameplayEffect, 1, EffectContext);
+				if (SpecHandle.IsValid())
 				{
-					FGameplayEffectSpecHandle SpecHandle = AbilitySystemComponent->MakeOutgoingSpec(GameplayEffect, 1, EffectContextHandle);
-					if (SpecHandle.IsValid())
+					FActiveGameplayEffectHandle ActiveGEHandle = AbilityComponent->ApplyGameplayEffectSpecToSelf(*SpecHandle.Data.Get());
+					if (!ActiveGEHandle.WasSuccessfullyApplied())
 					{
-						FActiveGameplayEffectHandle ActiveGameplayEffectHandle = AbilitySystemComponent->ApplyGameplayEffectSpecToSelf(*SpecHandle.Data.Get());
-						if (!ActiveGameplayEffectHandle.WasSuccessfullyApplied())
-						{
-							UE_LOG(LogTemp, Error, TEXT("Failed to apply apply effect! %s"), *GetNameSafe(GameplayEffect));
-						}
-						else
-						{
-							RemoveOnEndEffectHandle.Add(ActiveGameplayEffectHandle);
-						}
+						
+					}
+					else
+					{
+						RemoveOnEndEffectHandles.Add(ActiveGEHandle);
 					}
 				}
 			}
@@ -66,16 +72,21 @@ void UBaseGameplayAbility::EndAbility(const FGameplayAbilitySpecHandle Handle,
 	Super::EndAbility(Handle, ActorInfo, ActivationInfo, bReplicateEndAbility, bWasCancelled);
 	if (IsInstantiated())
 	{
-		for (FActiveGameplayEffectHandle ActiveGameplayEffectHandle : RemoveOnEndEffectHandle)
+		for (FActiveGameplayEffectHandle ActiveGameplayEffectHandle : RemoveOnEndEffectHandles)
 		{
 			if (ActiveGameplayEffectHandle.IsValid())
 			{
 				ActorInfo->AbilitySystemComponent->RemoveActiveGameplayEffect(ActiveGameplayEffectHandle);
 			}
 		}
-		RemoveOnEndEffectHandle.Empty();
+		RemoveOnEndEffectHandles.Empty();
 	}
 	
 	
 	Super::EndAbility(Handle, ActorInfo, ActivationInfo, bReplicateEndAbility, bWasCancelled);
+}
+
+ABaseCharacter* UBaseGameplayAbility::GetActionGameCharacterFromActorInfo() const
+{
+	return Cast<ABaseCharacter>(GetAvatarActorFromActorInfo());
 }

@@ -3,6 +3,7 @@
 #pragma once
 
 #include "CoreMinimal.h"
+#include "BaseCharacter.h"
 #include "Abilities/GameplayAbility.h"
 #include "BaseGameplayAbility.generated.h"
 
@@ -16,23 +17,21 @@ class COMMANDOHERO_API UBaseGameplayAbility : public UGameplayAbility
 
 	
 public:
-	virtual void ActivateAbility(const FGameplayAbilitySpecHandle Handle, const FGameplayAbilityActorInfo* ActorInfo, const FGameplayAbilityActivationInfo ActivationInfo, const FGameplayEventData* TriggerEventData);
-
-	virtual void EndAbility(const FGameplayAbilitySpecHandle Handle, const FGameplayAbilityActorInfo* ActorInfo, const FGameplayAbilityActivationInfo ActivationInfo, bool bReplicateEndAbility, bool bWasCancelled);
-
-	
-protected:
-
-	UPROPERTY(EditDefaultsOnly, Category= "Effects")
-	TArray<TSubclassOf<UGameplayEffect>> OngoingEffectToRemoveOnEnd;
-
-	UPROPERTY(EditDefaultsOnly, Category= "Effects")
-	TArray<TSubclassOf<UGameplayEffect>> OngoingEffectToJustApplyOnStart;
-	
-	UPROPERTY(EditDefaultsOnly, Category= "Effects")
-	TArray<FActiveGameplayEffectHandle> RemoveOnEndEffectHandle;
-
-	//UFUNCTION(BlueprintCallable, BlueprintPure)
-	//ABaseCharacter* GetActionShooterCharacterFromActorInfo() const;
-	
+ 
+ 	virtual void ActivateAbility(const FGameplayAbilitySpecHandle Handle, const FGameplayAbilityActorInfo* ActorInfo, const FGameplayAbilityActivationInfo ActivationInfo, const FGameplayEventData* TriggerEventData);
+ 
+ 	virtual void EndAbility(const FGameplayAbilitySpecHandle Handle, const FGameplayAbilityActorInfo* ActorInfo, const FGameplayAbilityActivationInfo ActivationInfo, bool bReplicateEndAbility, bool bWasCancelled);
+ 
+ protected:
+ 
+ 	UPROPERTY(EditDefaultsOnly, Category = "Effects")
+ 	TArray<TSubclassOf<UGameplayEffect>> OngoingEffectsToRemoveOnEnd;
+ 
+ 	UPROPERTY(EditDefaultsOnly, Category = "Effects")
+ 	TArray<TSubclassOf<UGameplayEffect>> OngoingEffectsToJustApplyOnStart;
+ 	
+ 	TArray<FActiveGameplayEffectHandle> RemoveOnEndEffectHandles;
+ 
+ 	UFUNCTION(BlueprintCallable, BlueprintPure)
+ 	ABaseCharacter* GetActionGameCharacterFromActorInfo() const;
 };
