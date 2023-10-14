@@ -286,36 +286,13 @@ void ABaseCharacter::SetupPlayerInputComponent(class UInputComponent* PlayerInpu
 
 void ABaseCharacter::OnMoveForwardAction(const FInputActionValue& Value)
 {
-	const float Magnitude = Value.GetMagnitude();
-	if ( (Controller != nullptr) && (Magnitude != 0.0f) )
-	{
-		// find out which way is forward
-		const FRotator Rotation = Controller->GetControlRotation();
-		const FRotator YawRotation(0, Rotation.Yaw, 0);
-
-		// get forward vector
-		const FVector ForwardDirection = FRotationMatrix(YawRotation).GetUnitAxis(EAxis::X);
-		
-		// add movement 
-		AddMovementInput(ForwardDirection, Magnitude);
-	}
+	
+	
 }
 
 void ABaseCharacter::OnMoveSideAction(const FInputActionValue& Value)
 {
-		const float Magnitude = Value.GetMagnitude();
-		if ( (Controller != nullptr) && (Magnitude != 0.0f) )
-		{
-			// find out which way is forward
-			const FRotator Rotation = Controller->GetControlRotation();
-			const FRotator YawRotation(0, Rotation.Yaw, 0);
-
-			// get forward vector
-			const FVector SideDirection = FRotationMatrix(YawRotation).GetUnitAxis(EAxis::Y);
-		
-			// add movement 
-			AddMovementInput(SideDirection, Magnitude);
-		}
+	
 }
 
 void ABaseCharacter::OnTurnAction(const FInputActionValue& Value)
