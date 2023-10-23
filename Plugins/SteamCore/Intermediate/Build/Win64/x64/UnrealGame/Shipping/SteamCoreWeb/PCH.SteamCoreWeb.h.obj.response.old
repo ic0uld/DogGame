@@ -1,6 +1,6 @@
-"E:\UE\Commando Hero Klasoru\CommandoHero52\Plugins\SteamCore\Intermediate\Build\Win64\x64\UnrealGame\Shipping\SteamCoreWeb\PCH.SteamCoreWeb.cpp"
+"E:\UE\Commando Hero Klasoru\CommandoHero\Plugins\SteamCore\Intermediate\Build\Win64\x64\UnrealGame\Shipping\SteamCoreWeb\PCH.SteamCoreWeb.cpp"
 /I .
-/I "E:\UE\Commando Hero Klasoru\CommandoHero52\Plugins\SteamCore\Source\SteamCoreWeb\Private"
+/I "E:\UE\Commando Hero Klasoru\CommandoHero\Plugins\SteamCore\Source\SteamCoreWeb\Private"
 /I Runtime\TraceLog\Public
 /I Runtime\Core\Public
 /I Runtime
@@ -115,9 +115,9 @@
 /I ..\Plugins\Online\OnlineBase
 /I Runtime\Online\HTTP\Public
 /I Runtime\Online
-/I "E:\UE\Commando Hero Klasoru\CommandoHero52\Plugins\SteamCore\Intermediate\Build\Win64\UnrealGame\Inc\SteamCoreWeb\UHT"
-/I "E:\UE\Commando Hero Klasoru\CommandoHero52\Plugins\SteamCore\Source"
-/I "E:\UE\Commando Hero Klasoru\CommandoHero52\Plugins\SteamCore\Source\SteamCoreWeb\Public"
+/I "E:\UE\Commando Hero Klasoru\CommandoHero\Plugins\SteamCore\Intermediate\Build\Win64\UnrealGame\Inc\SteamCoreWeb\UHT"
+/I "E:\UE\Commando Hero Klasoru\CommandoHero\Plugins\SteamCore\Source"
+/I "E:\UE\Commando Hero Klasoru\CommandoHero\Plugins\SteamCore\Source\SteamCoreWeb\Public"
 /external:W0
 /external:I ThirdParty\mimalloc\include
 /external:I ThirdParty\LibTiff\Source\Win64
@@ -127,10 +127,10 @@
 /external:I "C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\shared"
 /external:I "C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\um"
 /external:I "C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\winrt"
-/Yc"E:\UE\Commando Hero Klasoru\CommandoHero52\Plugins\SteamCore\Intermediate\Build\Win64\x64\UnrealGame\Shipping\SteamCoreWeb\PCH.SteamCoreWeb.h"
-/Fp"E:\UE\Commando Hero Klasoru\CommandoHero52\Plugins\SteamCore\Intermediate\Build\Win64\x64\UnrealGame\Shipping\SteamCoreWeb\PCH.SteamCoreWeb.h.pch"
-/Fo"E:\UE\Commando Hero Klasoru\CommandoHero52\Plugins\SteamCore\Intermediate\Build\Win64\x64\UnrealGame\Shipping\SteamCoreWeb\PCH.SteamCoreWeb.h.obj"
-/sourceDependencies "E:\UE\Commando Hero Klasoru\CommandoHero52\Plugins\SteamCore\Intermediate\Build\Win64\x64\UnrealGame\Shipping\SteamCoreWeb\PCH.SteamCoreWeb.h.dep.json"
+/Yc"E:\UE\Commando Hero Klasoru\CommandoHero\Plugins\SteamCore\Intermediate\Build\Win64\x64\UnrealGame\Shipping\SteamCoreWeb\PCH.SteamCoreWeb.h"
+/Fp"E:\UE\Commando Hero Klasoru\CommandoHero\Plugins\SteamCore\Intermediate\Build\Win64\x64\UnrealGame\Shipping\SteamCoreWeb\PCH.SteamCoreWeb.h.pch"
+/Fo"E:\UE\Commando Hero Klasoru\CommandoHero\Plugins\SteamCore\Intermediate\Build\Win64\x64\UnrealGame\Shipping\SteamCoreWeb\PCH.SteamCoreWeb.h.obj"
+/sourceDependencies "E:\UE\Commando Hero Klasoru\CommandoHero\Plugins\SteamCore\Intermediate\Build\Win64\x64\UnrealGame\Shipping\SteamCoreWeb\PCH.SteamCoreWeb.h.dep.json"
 /Zc:inline
 /nologo
 /Oi

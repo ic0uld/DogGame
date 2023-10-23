@@ -1,8 +1,8 @@
-"E:\UE\Commando Hero Klasoru\CommandoHero52\Plugins\SteamCore\Intermediate\Build\Win64\x64\UnrealGame\Shipping\SteamCore\Module.SteamCore.16_of_16.cpp"
+"E:\UE\Commando Hero Klasoru\CommandoHero\Plugins\SteamCore\Intermediate\Build\Win64\x64\UnrealGame\Shipping\SteamCore\Module.SteamCore.16_of_16.cpp"
 /I .
-/I "E:\UE\Commando Hero Klasoru\CommandoHero52\Plugins\SteamCore\Source\SteamCore\Public\SteamCore"
-/I "E:\UE\Commando Hero Klasoru\CommandoHero52\Plugins\SteamCore\Source\SteamCore\Private\SteamCore"
-/I "E:\UE\Commando Hero Klasoru\CommandoHero52\Plugins\SteamCore\Source\SteamCore\Private"
+/I "E:\UE\Commando Hero Klasoru\CommandoHero\Plugins\SteamCore\Source\SteamCore\Public\SteamCore"
+/I "E:\UE\Commando Hero Klasoru\CommandoHero\Plugins\SteamCore\Source\SteamCore\Private\SteamCore"
+/I "E:\UE\Commando Hero Klasoru\CommandoHero\Plugins\SteamCore\Source\SteamCore\Private"
 /I Runtime\Online\HTTP\Public
 /I Runtime\Online
 /I Runtime\TraceLog\Public
@@ -16,9 +16,9 @@
 /I Runtime\SignalProcessing\Public
 /I ThirdParty\Intel
 /I Runtime\AudioMixerCore\Public
-/I "E:\UE\Commando Hero Klasoru\CommandoHero52\Plugins\SteamCore\Intermediate\Build\Win64\UnrealGame\Inc\SteamCore\UHT"
-/I "E:\UE\Commando Hero Klasoru\CommandoHero52\Plugins\SteamCore\Source"
-/I "E:\UE\Commando Hero Klasoru\CommandoHero52\Plugins\SteamCore\Source\SteamCore\Public"
+/I "E:\UE\Commando Hero Klasoru\CommandoHero\Plugins\SteamCore\Intermediate\Build\Win64\UnrealGame\Inc\SteamCore\UHT"
+/I "E:\UE\Commando Hero Klasoru\CommandoHero\Plugins\SteamCore\Source"
+/I "E:\UE\Commando Hero Klasoru\CommandoHero\Plugins\SteamCore\Source\SteamCore\Public"
 /I ..\Intermediate\Build\Win64\UnrealGame\Inc\Engine\UHT
 /I ..\Shaders\Shared
 /I Runtime\Engine\Classes
@@ -140,11 +140,11 @@
 /external:I "C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\shared"
 /external:I "C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\um"
 /external:I "C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\winrt"
-/FI"E:\UE\Commando Hero Klasoru\CommandoHero52\Plugins\SteamCore\Intermediate\Build\Win64\x64\UnrealGame\Shipping\SteamCore\PCH.SteamCore.h"
-/Yu"E:\UE\Commando Hero Klasoru\CommandoHero52\Plugins\SteamCore\Intermediate\Build\Win64\x64\UnrealGame\Shipping\SteamCore\PCH.SteamCore.h"
-/Fp"E:\UE\Commando Hero Klasoru\CommandoHero52\Plugins\SteamCore\Intermediate\Build\Win64\x64\UnrealGame\Shipping\SteamCore\PCH.SteamCore.h.pch"
-/Fo"E:\UE\Commando Hero Klasoru\CommandoHero52\Plugins\SteamCore\Intermediate\Build\Win64\x64\UnrealGame\Shipping\SteamCore\Module.SteamCore.16_of_16.cpp.obj"
-/sourceDependencies "E:\UE\Commando Hero Klasoru\CommandoHero52\Plugins\SteamCore\Intermediate\Build\Win64\x64\UnrealGame\Shipping\SteamCore\Module.SteamCore.16_of_16.cpp.dep.json"
+/FI"E:\UE\Commando Hero Klasoru\CommandoHero\Plugins\SteamCore\Intermediate\Build\Win64\x64\UnrealGame\Shipping\SteamCore\PCH.SteamCore.h"
+/Yu"E:\UE\Commando Hero Klasoru\CommandoHero\Plugins\SteamCore\Intermediate\Build\Win64\x64\UnrealGame\Shipping\SteamCore\PCH.SteamCore.h"
+/Fp"E:\UE\Commando Hero Klasoru\CommandoHero\Plugins\SteamCore\Intermediate\Build\Win64\x64\UnrealGame\Shipping\SteamCore\PCH.SteamCore.h.pch"
+/Fo"E:\UE\Commando Hero Klasoru\CommandoHero\Plugins\SteamCore\Intermediate\Build\Win64\x64\UnrealGame\Shipping\SteamCore\Module.SteamCore.16_of_16.cpp.obj"
+/sourceDependencies "E:\UE\Commando Hero Klasoru\CommandoHero\Plugins\SteamCore\Intermediate\Build\Win64\x64\UnrealGame\Shipping\SteamCore\Module.SteamCore.16_of_16.cpp.dep.json"
 /Zc:inline
 /nologo
 /Oi

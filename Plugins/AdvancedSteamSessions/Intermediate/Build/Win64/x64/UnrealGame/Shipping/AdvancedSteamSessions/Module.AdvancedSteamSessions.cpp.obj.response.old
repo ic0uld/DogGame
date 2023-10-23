@@ -1,6 +1,6 @@
-"E:\UE\Commando Hero Klasoru\CommandoHero52\Plugins\AdvancedSteamSessions\Intermediate\Build\Win64\x64\UnrealGame\Shipping\AdvancedSteamSessions\Module.AdvancedSteamSessions.cpp"
+"E:\UE\Commando Hero Klasoru\CommandoHero\Plugins\AdvancedSteamSessions\Intermediate\Build\Win64\x64\UnrealGame\Shipping\AdvancedSteamSessions\Module.AdvancedSteamSessions.cpp"
 /I .
-/I "E:\UE\Commando Hero Klasoru\CommandoHero52\Plugins\AdvancedSteamSessions\Source\AdvancedSteamSessions\Private"
+/I "E:\UE\Commando Hero Klasoru\CommandoHero\Plugins\AdvancedSteamSessions\Source\AdvancedSteamSessions\Private"
 /I ..\Plugins\Online\OnlineSubsystem\Intermediate\Build\Win64\UnrealGame\Inc\OnlineSubsystem\UHT
 /I ..\Plugins\Online\OnlineSubsystem\Source
 /I ..\Plugins\Online\OnlineSubsystem\Source\Public
@@ -116,13 +116,13 @@
 /I Runtime\TypedElementFramework\Public
 /I ..\Intermediate\Build\Win64\UnrealGame\Inc\TypedElementRuntime\UHT
 /I Runtime\TypedElementRuntime\Public
-/I "E:\UE\Commando Hero Klasoru\CommandoHero52\Plugins\AdvancedSteamSessions\Intermediate\Build\Win64\UnrealGame\Inc\AdvancedSteamSessions\UHT"
+/I "E:\UE\Commando Hero Klasoru\CommandoHero\Plugins\AdvancedSteamSessions\Intermediate\Build\Win64\UnrealGame\Inc\AdvancedSteamSessions\UHT"
 /I ..\Plugins\Online\OnlineSubsystemSteam\Source\Private
-/I "E:\UE\Commando Hero Klasoru\CommandoHero52\Plugins\AdvancedSteamSessions\Source"
-/I "E:\UE\Commando Hero Klasoru\CommandoHero52\Plugins\AdvancedSteamSessions\Source\AdvancedSteamSessions\Classes"
-/I "E:\UE\Commando Hero Klasoru\CommandoHero52\Plugins\AdvancedSessions\Intermediate\Build\Win64\UnrealGame\Inc\AdvancedSessions\UHT"
-/I "E:\UE\Commando Hero Klasoru\CommandoHero52\Plugins\AdvancedSessions\Source"
-/I "E:\UE\Commando Hero Klasoru\CommandoHero52\Plugins\AdvancedSessions\Source\AdvancedSessions\Classes"
+/I "E:\UE\Commando Hero Klasoru\CommandoHero\Plugins\AdvancedSteamSessions\Source"
+/I "E:\UE\Commando Hero Klasoru\CommandoHero\Plugins\AdvancedSteamSessions\Source\AdvancedSteamSessions\Classes"
+/I "E:\UE\Commando Hero Klasoru\CommandoHero\Plugins\AdvancedSessions\Intermediate\Build\Win64\UnrealGame\Inc\AdvancedSessions\UHT"
+/I "E:\UE\Commando Hero Klasoru\CommandoHero\Plugins\AdvancedSessions\Source"
+/I "E:\UE\Commando Hero Klasoru\CommandoHero\Plugins\AdvancedSessions\Source\AdvancedSessions\Classes"
 /I ..\Plugins\Online\OnlineSubsystemSteam\Intermediate\Build\Win64\UnrealGame\Inc\OnlineSubsystemSteam\UHT
 /I ..\Plugins\Online\OnlineSubsystemSteam\Source\Classes
 /I ..\Plugins\Online\OnlineSubsystemSteam\Source\Public
@@ -137,12 +137,12 @@
 /external:I "C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\shared"
 /external:I "C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\um"
 /external:I "C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\winrt"
-/FI"E:\UE\Commando Hero Klasoru\CommandoHero52\Intermediate\Build\Win64\x64\CommandoHero\Shipping\Engine\SharedPCH.Engine.ShadowErrors.InclOrderUnreal5_0.h"
-/FI"E:\UE\Commando Hero Klasoru\CommandoHero52\Plugins\AdvancedSteamSessions\Intermediate\Build\Win64\x64\UnrealGame\Shipping\AdvancedSteamSessions\Definitions.AdvancedSteamSessions.h"
-/Yu"E:\UE\Commando Hero Klasoru\CommandoHero52\Intermediate\Build\Win64\x64\CommandoHero\Shipping\Engine\SharedPCH.Engine.ShadowErrors.InclOrderUnreal5_0.h"
-/Fp"E:\UE\Commando Hero Klasoru\CommandoHero52\Intermediate\Build\Win64\x64\CommandoHero\Shipping\Engine\SharedPCH.Engine.ShadowErrors.InclOrderUnreal5_0.h.pch"
-/Fo"E:\UE\Commando Hero Klasoru\CommandoHero52\Plugins\AdvancedSteamSessions\Intermediate\Build\Win64\x64\UnrealGame\Shipping\AdvancedSteamSessions\Module.AdvancedSteamSessions.cpp.obj"
-/sourceDependencies "E:\UE\Commando Hero Klasoru\CommandoHero52\Plugins\AdvancedSteamSessions\Intermediate\Build\Win64\x64\UnrealGame\Shipping\AdvancedSteamSessions\Module.AdvancedSteamSessions.cpp.dep.json"
+/FI"E:\UE\Commando Hero Klasoru\CommandoHero\Intermediate\Build\Win64\x64\CommandoHero\Shipping\Engine\SharedPCH.Engine.ShadowErrors.InclOrderUnreal5_0.h"
+/FI"E:\UE\Commando Hero Klasoru\CommandoHero\Plugins\AdvancedSteamSessions\Intermediate\Build\Win64\x64\UnrealGame\Shipping\AdvancedSteamSessions\Definitions.AdvancedSteamSessions.h"
+/Yu"E:\UE\Commando Hero Klasoru\CommandoHero\Intermediate\Build\Win64\x64\CommandoHero\Shipping\Engine\SharedPCH.Engine.ShadowErrors.InclOrderUnreal5_0.h"
+/Fp"E:\UE\Commando Hero Klasoru\CommandoHero\Intermediate\Build\Win64\x64\CommandoHero\Shipping\Engine\SharedPCH.Engine.ShadowErrors.InclOrderUnreal5_0.h.pch"
+/Fo"E:\UE\Commando Hero Klasoru\CommandoHero\Plugins\AdvancedSteamSessions\Intermediate\Build\Win64\x64\UnrealGame\Shipping\AdvancedSteamSessions\Module.AdvancedSteamSessions.cpp.obj"
+/sourceDependencies "E:\UE\Commando Hero Klasoru\CommandoHero\Plugins\AdvancedSteamSessions\Intermediate\Build\Win64\x64\UnrealGame\Shipping\AdvancedSteamSessions\Module.AdvancedSteamSessions.cpp.dep.json"
 /Zc:inline
 /nologo
 /Oi

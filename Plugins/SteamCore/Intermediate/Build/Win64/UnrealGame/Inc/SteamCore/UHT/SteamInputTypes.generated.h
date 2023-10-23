@@ -14,49 +14,49 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #endif
 #define STEAMCORE_SteamInputTypes_generated_h
 
-#define FID_UE_Commando_Hero_Klasoru_CommandoHero_Plugins_SteamCore_Source_SteamCore_Public_SteamInput_SteamInputTypes_h_570_GENERATED_BODY \
+#define FID_SourcTree_DogsClub_Plugins_SteamCore_Source_SteamCore_Public_SteamInput_SteamInputTypes_h_570_GENERATED_BODY \
 	friend struct Z_Construct_UScriptStruct_FInputAnalogActionData_Statics; \
 	STEAMCORE_API static class UScriptStruct* StaticStruct();
 
 
 template<> STEAMCORE_API UScriptStruct* StaticStruct<struct FInputAnalogActionData>();
 
-#define FID_UE_Commando_Hero_Klasoru_CommandoHero_Plugins_SteamCore_Source_SteamCore_Public_SteamInput_SteamInputTypes_h_603_GENERATED_BODY \
+#define FID_SourcTree_DogsClub_Plugins_SteamCore_Source_SteamCore_Public_SteamInput_SteamInputTypes_h_603_GENERATED_BODY \
 	friend struct Z_Construct_UScriptStruct_FInputDigitalActionData_Statics; \
 	STEAMCORE_API static class UScriptStruct* StaticStruct();
 
 
 template<> STEAMCORE_API UScriptStruct* StaticStruct<struct FInputDigitalActionData>();
 
-#define FID_UE_Commando_Hero_Klasoru_CommandoHero_Plugins_SteamCore_Source_SteamCore_Public_SteamInput_SteamInputTypes_h_628_GENERATED_BODY \
+#define FID_SourcTree_DogsClub_Plugins_SteamCore_Source_SteamCore_Public_SteamInput_SteamInputTypes_h_628_GENERATED_BODY \
 	friend struct Z_Construct_UScriptStruct_FInputMotionData_Statics; \
 	STEAMCORE_API static class UScriptStruct* StaticStruct();
 
 
 template<> STEAMCORE_API UScriptStruct* StaticStruct<struct FInputMotionData>();
 
-#define FID_UE_Commando_Hero_Klasoru_CommandoHero_Plugins_SteamCore_Source_SteamCore_Public_SteamInput_SteamInputTypes_h_685_GENERATED_BODY \
+#define FID_SourcTree_DogsClub_Plugins_SteamCore_Source_SteamCore_Public_SteamInput_SteamInputTypes_h_685_GENERATED_BODY \
 	friend struct Z_Construct_UScriptStruct_FInputHandle_Statics; \
 	static class UScriptStruct* StaticStruct();
 
 
 template<> STEAMCORE_API UScriptStruct* StaticStruct<struct FInputHandle>();
 
-#define FID_UE_Commando_Hero_Klasoru_CommandoHero_Plugins_SteamCore_Source_SteamCore_Public_SteamInput_SteamInputTypes_h_708_GENERATED_BODY \
+#define FID_SourcTree_DogsClub_Plugins_SteamCore_Source_SteamCore_Public_SteamInput_SteamInputTypes_h_708_GENERATED_BODY \
 	friend struct Z_Construct_UScriptStruct_FInputActionSetHandle_Statics; \
 	static class UScriptStruct* StaticStruct();
 
 
 template<> STEAMCORE_API UScriptStruct* StaticStruct<struct FInputActionSetHandle>();
 
-#define FID_UE_Commando_Hero_Klasoru_CommandoHero_Plugins_SteamCore_Source_SteamCore_Public_SteamInput_SteamInputTypes_h_731_GENERATED_BODY \
+#define FID_SourcTree_DogsClub_Plugins_SteamCore_Source_SteamCore_Public_SteamInput_SteamInputTypes_h_731_GENERATED_BODY \
 	friend struct Z_Construct_UScriptStruct_FInputDigitalActionHandle_Statics; \
 	static class UScriptStruct* StaticStruct();
 
 
 template<> STEAMCORE_API UScriptStruct* StaticStruct<struct FInputDigitalActionHandle>();
 
-#define FID_UE_Commando_Hero_Klasoru_CommandoHero_Plugins_SteamCore_Source_SteamCore_Public_SteamInput_SteamInputTypes_h_754_GENERATED_BODY \
+#define FID_SourcTree_DogsClub_Plugins_SteamCore_Source_SteamCore_Public_SteamInput_SteamInputTypes_h_754_GENERATED_BODY \
 	friend struct Z_Construct_UScriptStruct_FInputAnalogActionHandle_Statics; \
 	static class UScriptStruct* StaticStruct();
 
@@ -64,7 +64,7 @@ template<> STEAMCORE_API UScriptStruct* StaticStruct<struct FInputDigitalActionH
 template<> STEAMCORE_API UScriptStruct* StaticStruct<struct FInputAnalogActionHandle>();
 
 #undef CURRENT_FILE_ID
-#define CURRENT_FILE_ID FID_UE_Commando_Hero_Klasoru_CommandoHero_Plugins_SteamCore_Source_SteamCore_Public_SteamInput_SteamInputTypes_h
+#define CURRENT_FILE_ID FID_SourcTree_DogsClub_Plugins_SteamCore_Source_SteamCore_Public_SteamInput_SteamInputTypes_h
 
 
 #define FOREACH_ENUM_ESTEAMCOREINPUTSOURCE(op) \
