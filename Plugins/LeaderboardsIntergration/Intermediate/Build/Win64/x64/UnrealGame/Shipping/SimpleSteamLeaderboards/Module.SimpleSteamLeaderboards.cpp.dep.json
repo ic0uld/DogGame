@@ -6,7 +6,7 @@
         "PCH": "e:\\sourctree\\dogsclub\\intermediate\\build\\win64\\x64\\commandohero\\shipping\\engine\\sharedpch.engine.shadowerrors.inclorderunreal5_0.h.pch",
         "Includes": [
             "e:\\sourctree\\dogsclub\\plugins\\leaderboardsintergration\\intermediate\\build\\win64\\x64\\unrealgame\\shipping\\simplesteamleaderboards\\definitions.simplesteamleaderboards.h",
-            "e:\\sourctree\\dogsclub\\plugins\\leaderboardsintergration\\source\\simplesteamleaderboards\\private\\downloadsteamleaderboardentries.cpp",
+            "e:\\sourctree\\dogsclub\\plugins\\leaderboardsintergration\\intermediate\\build\\win64\\unrealgame\\inc\\simplesteamleaderboards\\uht\\downloadsteamleaderboardentries.gen.cpp",
             "e:\\sourctree\\dogsclub\\plugins\\leaderboardsintergration\\source\\simplesteamleaderboards\\public\\downloadsteamleaderboardentries.h",
             "e:\\epic games\\ue_5.2\\engine\\source\\runtime\\engine\\classes\\kismet\\blueprintasyncactionbase.h",
             "e:\\epic games\\ue_5.2\\engine\\intermediate\\build\\win64\\unrealgame\\inc\\engine\\uht\\blueprintasyncactionbase.generated.h",
@@ -56,6 +56,11 @@
             "e:\\epic games\\ue_5.2\\engine\\source\\thirdparty\\steamworks\\steamv153\\sdk\\public\\steam\\isteamnetworkingsockets.h",
             "e:\\epic games\\ue_5.2\\engine\\source\\thirdparty\\steamworks\\steamv153\\sdk\\public\\steam\\isteamnetworkingutils.h",
             "e:\\sourctree\\dogsclub\\plugins\\leaderboardsintergration\\intermediate\\build\\win64\\unrealgame\\inc\\simplesteamleaderboards\\uht\\downloadsteamleaderboardentries.generated.h",
+            "e:\\sourctree\\dogsclub\\plugins\\leaderboardsintergration\\intermediate\\build\\win64\\unrealgame\\inc\\simplesteamleaderboards\\uht\\simplesteamleaderboards.init.gen.cpp",
+            "e:\\sourctree\\dogsclub\\plugins\\leaderboardsintergration\\intermediate\\build\\win64\\unrealgame\\inc\\simplesteamleaderboards\\uht\\uploadscoretosteamleaderboard.gen.cpp",
+            "e:\\sourctree\\dogsclub\\plugins\\leaderboardsintergration\\source\\simplesteamleaderboards\\public\\uploadscoretosteamleaderboard.h",
+            "e:\\sourctree\\dogsclub\\plugins\\leaderboardsintergration\\intermediate\\build\\win64\\unrealgame\\inc\\simplesteamleaderboards\\uht\\uploadscoretosteamleaderboard.generated.h",
+            "e:\\sourctree\\dogsclub\\plugins\\leaderboardsintergration\\source\\simplesteamleaderboards\\private\\downloadsteamleaderboardentries.cpp",
             "e:\\epic games\\ue_5.2\\engine\\source\\runtime\\engine\\public\\engine.h",
             "e:\\epic games\\ue_5.2\\engine\\source\\runtime\\core\\public\\misc\\monolithicheaderboilerplate.h",
             "e:\\epic games\\ue_5.2\\engine\\source\\runtime\\core\\public\\core.h",
@@ -738,9 +743,7 @@
             "c:\\program files\\microsoft visual studio\\2022\\community\\vc\\tools\\msvc\\14.36.32532\\include\\cctype",
             "e:\\sourctree\\dogsclub\\plugins\\leaderboardsintergration\\source\\simplesteamleaderboards\\private\\simplesteamleaderboards.cpp",
             "e:\\sourctree\\dogsclub\\plugins\\leaderboardsintergration\\source\\simplesteamleaderboards\\public\\simplesteamleaderboards.h",
-            "e:\\sourctree\\dogsclub\\plugins\\leaderboardsintergration\\source\\simplesteamleaderboards\\private\\uploadscoretosteamleaderboard.cpp",
-            "e:\\sourctree\\dogsclub\\plugins\\leaderboardsintergration\\source\\simplesteamleaderboards\\public\\uploadscoretosteamleaderboard.h",
-            "e:\\sourctree\\dogsclub\\plugins\\leaderboardsintergration\\intermediate\\build\\win64\\unrealgame\\inc\\simplesteamleaderboards\\uht\\uploadscoretosteamleaderboard.generated.h"
+            "e:\\sourctree\\dogsclub\\plugins\\leaderboardsintergration\\source\\simplesteamleaderboards\\private\\uploadscoretosteamleaderboard.cpp"
         ],
         "ImportedModules": [],
         "ImportedHeaderUnits": []
