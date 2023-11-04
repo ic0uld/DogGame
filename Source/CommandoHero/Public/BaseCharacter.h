@@ -113,6 +113,7 @@ protected:
 	void OnSprintActionStarted(const FInputActionValue& Value);
 	void OnSprintActionEnded(const FInputActionValue& Value);
 	void OnYelpActionStarted(const FInputActionValue& Value);
+	void OnPeeActionStarted(const FInputActionValue& Value);
 	
 			
 
