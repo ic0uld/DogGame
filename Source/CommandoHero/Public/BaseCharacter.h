@@ -55,6 +55,12 @@ class ABaseCharacter : public ACharacter, public IAbilitySystemInterface
 	class UInputAction* CrouchInputAction;
 
 	UPROPERTY(EditDefaultsOnly)
+	class UInputAction* YelpAction;
+
+	UPROPERTY(EditDefaultsOnly)
+	class UInputAction* PeeAction;
+
+	UPROPERTY(EditDefaultsOnly)
 	class UInputAction* SprintInputAction;
 
 
@@ -106,6 +112,7 @@ protected:
 	void OnCrouchActionEnded(const FInputActionValue& Value);
 	void OnSprintActionStarted(const FInputActionValue& Value);
 	void OnSprintActionEnded(const FInputActionValue& Value);
+	void OnYelpActionStarted(const FInputActionValue& Value);
 	
 			
 
@@ -168,6 +175,12 @@ protected:
 
 	UPROPERTY(EditDefaultsOnly)
 	FGameplayTagContainer SprintTags;
+
+	UPROPERTY(EditDefaultsOnly)
+	FGameplayTagContainer YelpTags;
+	
+	UPROPERTY(EditDefaultsOnly)
+	FGameplayTagContainer PeeTags;
 
 	//GAS EFFECTS
 	

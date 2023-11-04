@@ -278,6 +278,10 @@ void ABaseCharacter::SetupPlayerInputComponent(class UInputComponent* PlayerInpu
 			EnhancedInputComponent->BindAction(SprintInputAction, ETriggerEvent::Started, this, &ABaseCharacter::OnSprintActionStarted);
 			EnhancedInputComponent->BindAction(SprintInputAction, ETriggerEvent::Completed, this, &ABaseCharacter::OnSprintActionEnded);
 		}
+		if (YelpAction)
+		{
+			EnhancedInputComponent->BindAction(YelpAction, ETriggerEvent::Started, this, &ABaseCharacter::OnYelpActionStarted);
+		}
 		
 
 	}
@@ -351,3 +355,12 @@ void ABaseCharacter::OnSprintActionEnded(const FInputActionValue& Value)
 		AbilitySystemComponent->CancelAbilities(SprintTagsPtr);
 	}
 }
+
+void ABaseCharacter::OnYelpActionStarted(const FInputActionValue& Value)
+{
+	if (AbilitySystemComponent)
+	{
+		AbilitySystemComponent->TryActivateAbilitiesByTag(YelpTags, true);
+	}
+}
+ 
