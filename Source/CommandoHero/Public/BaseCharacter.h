@@ -8,6 +8,7 @@
 #include "AbilitySystemInterface.h"
 #include "Abilities/GameplayAbility.h"
 #include "ClassTypes.h"
+#include "NiagaraComponent.h"
 #include "GameplayTagContainer.h"
 #include "BaseCharacter.generated.h"
 
@@ -15,6 +16,7 @@ class UBaseAbilitySystemComponent;
 class UBaseAttributeSet;
 
 class UBaseCharacterMovementComponent;
+
 
 class UGameplayEffect;
 class UGameplayAbility;
@@ -147,7 +149,12 @@ public:
 
 	virtual void Landed(const FHitResult& Hit) override;
 
+	UPROPERTY(VisibleAnywhere, BlueprintReadWrite)
+	TObjectPtr<UNiagaraComponent> NiagaraComponent;
+
 protected:
+
+	
 
 	UPROPERTY(ReplicatedUsing = OnRep_CharacterData)
 	FCharacterData CharacterData;
