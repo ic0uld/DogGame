@@ -44,9 +44,7 @@ ABaseCharacter::ABaseCharacter(const FObjectInitializer& ObjectInitializer) : Su
 	CameraBoom->TargetArmLength = 400.0f; // The camera follows at this distance behind the character	
 	CameraBoom->bUsePawnControlRotation = true; // Rotate the arm based on the controller
 
-	NiagaraComponent = CreateDefaultSubobject<UNiagaraComponent>(TEXT("NiagaraComponent"));
-	FollowCamera->AttachToComponent(GetMesh(),); 
-	NiagaraComponent->bAutoActivate = false;
+	
 
 	// Create a follow camera
 	FollowCamera = CreateDefaultSubobject<UCameraComponent>(TEXT("FollowCamera"));
