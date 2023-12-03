@@ -12,13 +12,6 @@ UGA_PawAction::UGA_PawAction()
 
 	PawMontage = nullptr; // Set your default montage here
 
-	FGameplayTag Ability1Tag = FGameplayTag::RequestGameplayTag(FName("Ability.Skill.Ability1"));
-	
-	AbilityTags.AddTag(Ability1Tag);
-	ActivationOwnedTags.AddTag(Ability1Tag);
-
-	ActivationBlockedTags.AddTag(FGameplayTag::RequestGameplayTag(FName("Ability.Skill")));
-
 	// Set the default push force
 	PushForce = 1000.0f;
 
