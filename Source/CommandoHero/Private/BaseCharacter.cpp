@@ -289,6 +289,11 @@ void ABaseCharacter::SetupPlayerInputComponent(class UInputComponent* PlayerInpu
 		{
 			EnhancedInputComponent->BindAction(PeeAction, ETriggerEvent::Started, this, &ABaseCharacter::OnPeeActionStarted);
 		}
+
+		if (PawAction)
+		{
+			EnhancedInputComponent->BindAction(PawAction, ETriggerEvent::Started, this, &ABaseCharacter::OnPawActionStarted);
+		}
 		
 
 	}
@@ -376,6 +381,14 @@ void ABaseCharacter::OnPeeActionStarted(const FInputActionValue& Value)
 	if (AbilitySystemComponent)
 	{
 		AbilitySystemComponent->TryActivateAbilitiesByTag(PeeTags, true);
+	}
+}
+
+void ABaseCharacter::OnPawActionStarted(const FInputActionValue& Value)
+{
+	if (AbilitySystemComponent)
+	{
+		AbilitySystemComponent->TryActivateAbilitiesByTag(PawTags, true);
 	}
 }
  

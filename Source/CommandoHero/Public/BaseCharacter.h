@@ -63,6 +63,9 @@ class ABaseCharacter : public ACharacter, public IAbilitySystemInterface
 	class UInputAction* PeeAction;
 
 	UPROPERTY(EditDefaultsOnly)
+	class UInputAction* PawAction;
+
+	UPROPERTY(EditDefaultsOnly)
 	class UInputAction* SprintInputAction;
 
 
@@ -116,6 +119,7 @@ protected:
 	void OnSprintActionEnded(const FInputActionValue& Value);
 	void OnYelpActionStarted(const FInputActionValue& Value);
 	void OnPeeActionStarted(const FInputActionValue& Value);
+	void OnPawActionStarted(const FInputActionValue& Value);
 	
 			
 
@@ -189,6 +193,9 @@ protected:
 	
 	UPROPERTY(EditDefaultsOnly)
 	FGameplayTagContainer PeeTags;
+	
+	UPROPERTY(EditDefaultsOnly)
+	FGameplayTagContainer PawTags;
 
 	//GAS EFFECTS
 	
