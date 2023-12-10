@@ -14,6 +14,8 @@ GAMEPLAYATTRIBUTE_VALUE_GETTER(PropertyName) \
 GAMEPLAYATTRIBUTE_VALUE_SETTER(PropertyName) \
 GAMEPLAYATTRIBUTE_VALUE_INITTER(PropertyName)
 
+
+
 /**
  * 
  */
@@ -43,6 +45,8 @@ public:
 	UPROPERTY(BlueprintReadOnly, Category= "MaxMoveSpeed", ReplicatedUsing = OnRep_MaxMoveSpeed)
 	FGameplayAttributeData MaxMoveSpeed;
 	ATTRIBUTE_ACCESSORS(UBaseAttributeSet, MaxMoveSpeed)
+	
+
 
 	
 protected:

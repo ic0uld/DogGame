@@ -68,6 +68,9 @@ class ABaseCharacter : public ACharacter, public IAbilitySystemInterface
 	UPROPERTY(EditDefaultsOnly)
 	class UInputAction* SprintInputAction;
 
+	UPROPERTY(EditDefaultsOnly)
+	class UInputAction* FartAction;
+
 
 public:
 
@@ -101,8 +104,8 @@ protected:
 	UPROPERTY(EditDefaultsOnly)
 	UBaseAbilitySystemComponent* AbilitySystemComponent;
 	
-	UPROPERTY(EditDefaultsOnly)
-	UBaseAttributeSet* AttributeSetBase;
+	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = "Components")
+	TObjectPtr<UBaseAttributeSet> AttributeSetBase;
 	
 
 	UBaseCharacterMovementComponent* XCharacterMovComp;
@@ -120,6 +123,7 @@ protected:
 	void OnYelpActionStarted(const FInputActionValue& Value);
 	void OnPeeActionStarted(const FInputActionValue& Value);
 	void OnPawActionStarted(const FInputActionValue& Value);
+	void OnFartAcationStarted(const FInputActionValue& Value);
 	
 			
 
@@ -149,7 +153,9 @@ public:
 	class UXFootStepsComponent* GetFootStepComponent() const;
 
 	void OnMaxMovementSpeedChanged(const FOnAttributeChangeData& Data);
+
 	
+	void OnHealthAttributeChanged(const FOnAttributeChangeData& Data);
 
 	virtual void Landed(const FHitResult& Hit) override;
 
@@ -196,6 +202,14 @@ protected:
 	
 	UPROPERTY(EditDefaultsOnly)
 	FGameplayTagContainer PawTags;
+
+	UPROPERTY(EditDefaultsOnly)
+	FGameplayTagContainer FartTags;
+
+	UPROPERTY(EditDefaultsOnly)
+	FGameplayTag ZeroHealthEventTag;
+
+	
 
 	//GAS EFFECTS
 	

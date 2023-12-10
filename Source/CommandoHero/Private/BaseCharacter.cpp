@@ -3,12 +3,14 @@
 
 #include "BaseCharacter.h"
 
+#include "AbilitySystemBlueprintLibrary.h"
 #include "Camera/CameraComponent.h"
 #include "CommandoHero/Data/CharacterDataAsset.h"
 #include "Components/BaseCharacterMovementComponent.h"
 #include "Components/CapsuleComponent.h"
 #include "EnhancedInputComponent.h"
 #include "EnhancedInputSubsystems.h"
+#include "GameplayEffectExtension.h"
 #include "GameFramework/SpringArmComponent.h"
 #include "Gas/BaseAbilitySystemComponent.h"
 #include "Gas/Attributes/BaseAttributeSet.h"
@@ -135,6 +137,25 @@ void ABaseCharacter::OnMaxMovementSpeedChanged(const FOnAttributeChangeData& Dat
 	GetCharacterMovement()->MaxWalkSpeed = Data.NewValue;
 }
 
+void ABaseCharacter::OnHealthAttributeChanged(const FOnAttributeChangeData& Data)
+{
+	if (Data.NewValue <= 0 && Data.OldValue > 0)
+	{
+		ABaseCharacter* OtherCharacter = nullptr;
+
+		if (Data.GEModData)
+		{
+			const FGameplayEffectContextHandle& EffectContext = Data.GEModData->EffectSpec.GetEffectContext();
+			OtherCharacter = Cast<ABaseCharacter>(EffectContext.GetInstigator());
+		}
+
+		FGameplayEventData EventPayload;
+		EventPayload.EventTag = ZeroHealthEventTag;
+
+		UAbilitySystemBlueprintLibrary::SendGameplayEventToActor(this, ZeroHealthEventTag, EventPayload);
+	}
+}
+
 void ABaseCharacter::Landed(const FHitResult& Hit)
 {
 	Super::Landed(Hit);
@@ -157,6 +178,7 @@ void ABaseCharacter::InitFromCharacterData(const FCharacterData& InCharacterData
 
 	
 }
+
 
 bool ABaseCharacter::ApplyGameplayEffectToSelf(TSubclassOf<UGameplayEffect> Effect, FGameplayEffectContextHandle InEffectContext)
 {
@@ -294,6 +316,11 @@ void ABaseCharacter::SetupPlayerInputComponent(class UInputComponent* PlayerInpu
 		{
 			EnhancedInputComponent->BindAction(PawAction, ETriggerEvent::Started, this, &ABaseCharacter::OnPawActionStarted);
 		}
+
+		if (FartAction)
+		{
+			EnhancedInputComponent->BindAction(FartAction, ETriggerEvent::Started, this, &ABaseCharacter::OnFartAcationStarted);
+		}
 		
 
 	}
@@ -389,6 +416,14 @@ void ABaseCharacter::OnPawActionStarted(const FInputActionValue& Value)
 	if (AbilitySystemComponent)
 	{
 		AbilitySystemComponent->TryActivateAbilitiesByTag(PawTags, true);
+	}
+}
+
+void ABaseCharacter::OnFartAcationStarted(const FInputActionValue& Value)
+{
+	if (AbilitySystemComponent)
+	{
+		AbilitySystemComponent->TryActivateAbilitiesByTag(FartTags, true);
 	}
 }
  
