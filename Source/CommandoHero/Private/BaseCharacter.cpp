@@ -111,6 +111,26 @@ void ABaseCharacter::OnEndCrouch(float HalfHeightAdjust, float ScaledHalfHeightA
 	}
 }
 
+float ABaseCharacter::GetHealth() const
+{
+	if (AttributeSetBase)
+	{
+		return AttributeSetBase->GetHealth();
+	}
+
+	return 0.0f;
+}
+
+float ABaseCharacter::GetMana() const
+{
+	if (AttributeSetBase)
+	{
+		return AttributeSetBase->GetStamina();
+	}
+
+	return 0.0f;
+}
+
 FCharacterData ABaseCharacter::GetCharacterData() const
 {
 	return CharacterData;

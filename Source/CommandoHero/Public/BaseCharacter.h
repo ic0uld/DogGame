@@ -85,6 +85,12 @@ public:
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category= Input)
 	float TurnRateGamepad;
 	
+	UFUNCTION(BlueprintCallable, Category = "Attributes")
+	float GetHealth() const;
+
+	UFUNCTION(BlueprintCallable, Category = "Attributes")
+	float GetMana() const;
+	
 bool ApplyGameplayEffectToSelf(TSubclassOf<UGameplayEffect> Effect, FGameplayEffectContextHandle InEffectContext);
 
 	virtual UAbilitySystemComponent* GetAbilitySystemComponent() const override;
