@@ -14,5 +14,9 @@ class COMMANDOHERO_API UBaseAbilitySystemComponent : public UAbilitySystemCompon
 {
 	GENERATED_BODY()
 	
+public:
+	
+		UPROPERTY(EditAnywhere,BlueprintReadWrite, Category = "Tags")
+    	FGameplayTagContainer ActiveGameplayTags;
 	
 };

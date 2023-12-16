@@ -92,7 +92,7 @@ public:
 	float GetMana() const;
 	
 bool ApplyGameplayEffectToSelf(TSubclassOf<UGameplayEffect> Effect, FGameplayEffectContextHandle InEffectContext);
-
+	
 	virtual UAbilitySystemComponent* GetAbilitySystemComponent() const override;
 
 	
