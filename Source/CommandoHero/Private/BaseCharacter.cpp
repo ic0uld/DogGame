@@ -377,7 +377,8 @@ void ABaseCharacter::OnJumpActionStarted(const FInputActionValue& Value)
 
 void ABaseCharacter::OnJumpActionEnded(const FInputActionValue& Value)
 {
-//StopJumping();
+  StopJumping();
+
 }
 
 void ABaseCharacter::OnCrouchActionStarted(const FInputActionValue& Value)

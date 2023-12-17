@@ -79,8 +79,7 @@ void UGA_Fart::EventReceived()
 
 			FGameplayEffectSpecHandle DamageEffectSpecHandle = MakeOutgoingGameplayEffectSpec(DamageGameplayEffect, GetAbilityLevel());
 		
-			// Pass the damage to the Damage Execution Calculation through a SetByCaller value on the GameplayEffectSpec
-			DamageEffectSpecHandle.Data.Get()->SetSetByCallerMagnitude(FGameplayTag::RequestGameplayTag(FName("Data.Damage")), Damage);
+			// Pass the damage to the Damage Execution Calculation through a SetByCaller value on the GameplayEffectSpeconuyor			DamageEffectSpecHandle.Data.Get()->SetSetByCallerMagnitude(FGameplayTag::RequestGameplayTag(FName("Data.Damage")), Damage);
 
 			FTransform MuzzleTransform = SourceCharacter->GetMesh()->GetSocketTransform(FName("Muzzle"));
 			MuzzleTransform.SetRotation(Rotation.Quaternion());
