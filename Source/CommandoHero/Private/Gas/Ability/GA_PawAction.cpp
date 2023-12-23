@@ -34,7 +34,7 @@ void UGA_PawAction::ActivateAbility(const FGameplayAbilitySpecHandle Handle, con
 
 		MontageTask = UAbilityTask_PlayMontageAndWait::CreatePlayMontageAndWaitProxy(this, NAME_None, PawMontage);
 
-		MontageTask->OnBlendOut.AddDynamic(this, &UGA_PawAction::EventReceived);
+		//MontageTask->OnBlendOut.AddDynamic(this, &UGA_PawAction::EventReceived);
 		MontageTask->OnCompleted.AddDynamic(this, &UGA_PawAction::K2_EndAbility);
 		MontageTask->OnInterrupted.AddDynamic(this, &UGA_PawAction::K2_EndAbility);
 		MontageTask->OnCancelled.AddDynamic(this, &UGA_PawAction::K2_EndAbility);
@@ -53,7 +53,7 @@ void UGA_PawAction::EndAbility(const FGameplayAbilitySpecHandle Handle, const FG
 }
 
 
-
+/*
 void UGA_PawAction::EventReceived()
 {
 	if (GEngine)
@@ -93,10 +93,11 @@ void UGA_PawAction::EventReceived()
 			{
 				FVector ForceDirection = TargetCharacter->GetActorLocation() - SourceActor->GetActorLocation();
 				ForceDirection.Normalize();
-
+				
 				// Apply force to the target character
 				TargetCharacter->LaunchCharacter(ForceDirection * PushForce, false, false);
 			}
 		}
 	}
 }
+*/

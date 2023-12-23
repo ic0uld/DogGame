@@ -31,8 +31,8 @@ protected:
 	UPROPERTY()
 	UAbilityTask_PlayMontageAndWait* MontageTask = nullptr;
 
-	UFUNCTION()
-	void EventReceived();
+	/*UFUNCTION()
+	void EventReceived();*/
 	
 	
 	UPROPERTY(EditDefaultsOnly, BlueprintReadOnly, Category = "Ability")
